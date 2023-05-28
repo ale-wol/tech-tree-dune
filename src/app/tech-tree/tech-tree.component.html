@@ -1,0 +1,10 @@
+<div class="main" 
+*ngFor="let itm of childs" 
+[class.no-border]="!itm.getParent">
+
+   <div class='item'>{{itm.name}} 
+      <div *ngIf="itm.getchilds.length" class="line"></div> 
+    </div>
+ 
+ <app-tech-tree [childs] = "itm.childs"></app-tech-tree>
+</div>

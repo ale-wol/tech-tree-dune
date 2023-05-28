@@ -1,0 +1,33 @@
+[{
+    "name": "Solid Materials",
+    "description": "-15% Building Costs construction costs; +25% Health on Buildings; + 5% Armor on all Buildings",
+    "childs": 
+      [
+        {
+          "name": "Advanced Engineering",
+          "description": "+5% Ressource Production in Villages per Building on extra Slot; Unlocks Spice Silos Village Building",
+          "childs": 
+          [
+              {
+                "name": "Energy Markets",
+                "description": "+20% Fuel Cell; +2 Solari per Spare Fuel Cell"
+              }
+          ]
+        },
+        {
+          "name": "Modular Parts",
+          "description": "1+ Crew assignable on Harvesters; Unlocks Harvester Works Building in Imperial Base, Unlocks Trade Agreement Treaty",
+          "childs": 
+          [
+            {
+              "name": "Gridex Plane",
+              "description": "1+ Crew assignable on Harvesters; +5% bonus Choam Spice Exchange Rate"
+            },
+            {
+              "name": "Economic Lobbying",
+              "description": "Unlocks Training of Mercenary; Unlocks +1 Agent Slot in Choam Infiltration; Unlocks Choam Branch Building in Imperial Base"
+            }
+          ]
+        }
+      ]
+}]
