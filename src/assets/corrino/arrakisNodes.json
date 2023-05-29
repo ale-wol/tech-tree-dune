@@ -1,0 +1,58 @@
+[{
+    "name": "Megalopolis",
+    "perks": ["Ally Villages neigbouring Imperial Base get: +20% ressource production", "+20% Militia Health", "Unlocks the Crafts Workshop Village Building"],
+    "childs": 
+      [
+        {
+          "name": "Paracompass",
+          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+        },
+        {
+          "name": "Water Sellers Contacts",
+          "perks": ["-20% Military Unit Water Upkeep", "-20% Water Upkeep on Villages", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "childs": 
+          [
+            {
+              "name": "Water Trade",
+              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Imperial Base"]
+            }
+          ]
+        },
+        {
+            "name": "Natives Knowledge",
+            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "childs": 
+            [
+              {
+                "name": "Administrative Consolidation",
+                "perks": ["+0,5 Knowledge per completed district", 
+                        "Imperial Bases gain: +50% Airfield range, Attacks from 50% further", 
+                        "Unlocks the Research Agreement Treaty"],
+                "childs": 
+                [
+                  {
+                    "name": "Lay of the Land",
+                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
+                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
+                            "+30% Militia Health"]
+                  }
+                ]
+              },
+              {
+                "name": "Imperial Administration",
+                "perks": ["+10% resource production in ally villages with 4 or more Buildings of the same type", 
+                        "Unlocks the Decoy Thumper spying mission", 
+                        "+1 instances of the Villages traits in ally Villages neigboring Imperial Bases",
+                        "Unlocks the Investment Office Village Building"],
+                "childs": 
+                [
+                  {
+                    "name": "Border Defense",
+                    "perks": ["+1 Militia Slot", "+20% Missile Battery Power", "locks Heavy Militia"]
+                  }
+                ]
+              }
+            ]
+        }
+      ]
+}]

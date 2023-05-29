@@ -1,0 +1,63 @@
+[{
+    "name": "Intelligence Network",
+    "description": "Agents assigned on CHOAM Infiltration produce 100% more Solari; Agents assigned on Landsraad Infiltration produce 100% more Influence",
+    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "childs": 
+      [
+        {
+          "name": "Diplomatic Maneuvers",
+          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration", 
+                    "Agents assigend on a faction in Truce produce 10 Solari", 
+                    "Unlocks the Political Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Negotiation Tactics",
+              "perks": ["Minor Houses deliver Dump Box near Imperial Base after every Landsraad Council",
+                        "Agents assigend on Spacing Guild Infiltration proudce 0,1 Guild Favor",
+                        "10% CHAOM Share dividents per agent assigend to CHOAM Infiltration"],
+              "childs": 
+              [
+                {
+                  "name": "Emperor Eyes",
+                  "perks": ["Fills 3 Counterintelligence slots with unmoveable Emperor Eye Agents", "Agents assigned on opposing factions produce +5 Intel"]
+                }
+              ]
+            },
+            {
+                "name": "Political Stance",
+                "perks": [
+                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
+                     "Unlocks Embassy Building in Imperial Base"
+                    ]
+              }
+          ]
+        },
+        {
+          "name": "Spying Logistic",
+          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Imperial Base"],
+          "childs": 
+          [
+            {
+              "name": "Stealth Gear",
+              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
+                        "-15% daily Supply drain in enemy territory",
+                        "-50%spying mission Solari cost"],
+              "childs": 
+              [
+                {
+                  "name": "Spying Mastery",
+                  "perks": ["+3 Intel production per ally Sietch", "+5 max Agents", "Allows the training of Assassin"]
+                }
+              ]
+            },
+            {
+                "name": "Outrageous Wealth",
+                "perks": ["+5% unit Power per faction with less CHOAM Shares",
+                        "+2 Influence production per faction with less CHOAM Shares", 
+                        "Unlocks the Emperor Monument Building in Imperial Base"]
+            }
+          ]
+        }
+      ]
+}]
