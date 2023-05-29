@@ -24,7 +24,11 @@ export class AddNodesService {
     //console.log(jsonData);
 
     function parseNode(jsonNode: any): TechNode {
-      const node = new TechNode(jsonNode.name, jsonNode.description);
+      const node = new TechNode(jsonNode.name);
+
+      for(const perk of jsonNode.perks) {
+        node.addPerk(perk);
+      }
 
       if (jsonNode.childs && jsonNode.childs.length > 0) {
         for (const child of jsonNode.childs) {

@@ -1,12 +1,19 @@
 export class TechNode {
     name: String;
-    description: String;
+    public perks: String [] = [];
     public childs: TechNode[] = [];
     private parentNode?: TechNode;
   
-    constructor(name: String, description: String) {
+    constructor(name: String) {
       this.name = name;
-      this.description = description;
+    }
+
+    addPerk(perk: String){
+      this.perks.push(perk);
+    }
+
+    getPerks(): String[] {
+      return this.perks;
     }
   
     addChild(child: TechNode): void {

@@ -3,6 +3,11 @@
 [class.no-border]="!itm.getParent">
 
    <div class='item'>{{itm.name}} 
+      <!--
+      <div *ngFor="let perk of itm.perks; index as i">
+         {{perk}}
+      </div>
+      -->
       <div *ngIf="itm.getchilds.length" class="line"></div> 
     </div>
  
