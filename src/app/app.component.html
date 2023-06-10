@@ -1,4 +1,7 @@
-<app-tech-tree [childs]="corinoEcoNodes"></app-tech-tree>
-<app-tech-tree [childs]="corinoArrNodes"></app-tech-tree>
-<app-tech-tree [childs]="corinoMilNodes"></app-tech-tree>
-<app-tech-tree [childs]="corinoStaNodes"></app-tech-tree>
+<mat-grid-list  [cols]="gridresponsivecols"  rowHeight="2:1" (window:resize)="handleSize($event)">
+    <mat-grid-tile *ngFor="let nodes of [corinoEcoNodes, corinoArrNodes, corinoMilNodes, corinoStaNodes]">
+      <mat-card>
+        <app-tech-tree [childs]="nodes"></app-tech-tree>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>

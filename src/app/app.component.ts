@@ -9,7 +9,8 @@ import { AddNodesService } from './add-nodes.service';
 })
 export class AppComponent {
   title = 'tech-tree-dune';
-  
+  gridresponsivecols: number = 1;
+
   corinoEcoNodes: TechNode[] = [];
   corinoArrNodes: TechNode[] = [];
   corinoMilNodes: TechNode[] = [];
@@ -52,5 +53,13 @@ export class AppComponent {
         console.error('Error parsing JSON:', error);
       }
     );
+  }
+
+  ngOnInit() {
+    this.gridresponsivecols = (window.innerWidth <= 700) ? 1 : 2;
+    }
+
+  handleSize(event: any) {
+    this.gridresponsivecols = (event.target.innerWidth <= 700) ? 1 : 2;
   }
 }

@@ -7,6 +7,8 @@ import { TechTreeComponent } from './tech-tree/tech-tree.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     NoopAnimationsModule,
     NgbTooltipModule,
     NgbModule,
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
