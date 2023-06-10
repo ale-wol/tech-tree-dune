@@ -1,5 +1,5 @@
 <mat-grid-list  [cols]="gridresponsivecols"  rowHeight="2:1" (window:resize)="handleSize($event)">
-    <mat-grid-tile *ngFor="let nodes of [corinoEcoNodes, corinoArrNodes, corinoMilNodes, corinoStaNodes]">
+    <mat-grid-tile *ngFor="let nodes of [corinoEcoNodes, corinoMilNodes, corinoStaNodes, corinoArrNodes]">
       <mat-card>
         <app-tech-tree [childs]="nodes"></app-tech-tree>
       </mat-card>
