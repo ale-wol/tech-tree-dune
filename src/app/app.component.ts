@@ -11,18 +11,42 @@ export class AppComponent {
   title = 'tech-tree-dune';
   
   corinoEcoNodes: TechNode[] = [];
+  corinoArrNodes: TechNode[] = [];
+  corinoMilNodes: TechNode[] = [];
+  corinoStaNodes: TechNode[] = [];
+
 
   constructor(private nodeService: AddNodesService) {
-    this.parseNodesFromJSONFile("./assets/corrino/economyNodes.json");
-  }
-
-
-
-  parseNodesFromJSONFile(filePath: string): void {
-    this.nodeService.parseNodesFromJSONFile(filePath).subscribe(
+    this.nodeService.parseNodesFromJSONFile("./assets/corrino/economyNodes.json").subscribe(
       (techNodes: TechNode[]) => {
         this.corinoEcoNodes = techNodes;
-        console.log(this.corinoEcoNodes);
+      },
+      (error) => {
+        console.error('Error parsing JSON:', error);
+      }
+    );
+
+    this.nodeService.parseNodesFromJSONFile("./assets/corrino/arrakisNodes.json").subscribe(
+      (techNodes: TechNode[]) => {
+        this.corinoArrNodes = techNodes;
+      },
+      (error) => {
+        console.error('Error parsing JSON:', error);
+      }
+    );
+
+    this.nodeService.parseNodesFromJSONFile("./assets/corrino/militaryNodes.json").subscribe(
+      (techNodes: TechNode[]) => {
+        this.corinoMilNodes = techNodes;
+      },
+      (error) => {
+        console.error('Error parsing JSON:', error);
+      }
+    );
+
+    this.nodeService.parseNodesFromJSONFile("./assets/corrino/statecraftNodes.json").subscribe(
+      (techNodes: TechNode[]) => {
+        this.corinoStaNodes = techNodes;
       },
       (error) => {
         console.error('Error parsing JSON:', error);
