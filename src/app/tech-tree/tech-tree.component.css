@@ -31,8 +31,20 @@
     justify-content: center;
   }
 
+  /* Bootstrap Tooltip Customization*/
   ::ng-deep .tooltip-inner{
     width: 400px;
-    color: black;
+    color: white;
+    opacity: 1 !important;
     background-color: #7E7E7E;
   }
+
+  /* remove transparency from tooltip*/
+  ::ng-deep .tooltip.show {
+    opacity: 1!important;
+}
+
+::ng-deep .tooltip-arrow {
+  display: none !important;
+}
+  
