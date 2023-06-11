@@ -9,6 +9,7 @@ import { AddNodesService } from './add-nodes.service';
 })
 export class AppComponent {
   title = 'tech-tree-dune';
+
   gridresponsivecols: number = 1;
 
   corinoEcoNodes: TechNode[] = [];

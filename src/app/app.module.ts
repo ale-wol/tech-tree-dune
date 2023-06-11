@@ -7,13 +7,15 @@ import { TechTreeComponent } from './tech-tree/tech-tree.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { MatCardModule } from '@angular/material/card';
+import { ToolbarComponent } from './toolbar/toolbar.component';
+import { MaterialModule } from './material.module';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    TechTreeComponent
+    TechTreeComponent,
+    ToolbarComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,8 +23,7 @@ import { MatCardModule } from '@angular/material/card';
     NoopAnimationsModule,
     NgbTooltipModule,
     NgbModule,
-    MatGridListModule,
-    MatCardModule
+    MaterialModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
