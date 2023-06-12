@@ -8,3 +8,7 @@
        Every toolbar row uses a flexbox row layout. */
     flex: 1 1 auto;
   }
+
+  ::ng-deep .mat-mdc-menu-panel{
+    background-color:#7E7E7E;
+  }
