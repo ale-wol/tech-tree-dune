@@ -1,0 +1,58 @@
+[{
+    "name": "Survival Training",
+    "perks": ["+30% max Supply", "Unlocks the Military Base Village Building", "Unlocks Heavy Weapon Squad Unit"],
+    "childs": 
+      [
+        {
+          "name": "Defense Systems",
+          "perks": ["+1 Militia slot", "+1 Missile Battery limit", "Unlocks the Enhanced Fortifications Building in Arrakeen"]
+        },
+        {
+          "name": "Support Structures",
+          "perks": ["Unlocks 1 Agent slot in Spacing Guild Infiltration", 
+                  "Unlocks the Command Post Building in Arrakeen",
+                  "Unlocks the Support Drone unit"],
+          "childs": 
+          [
+            {
+              "name": "Atreides Officers",
+              "perks": ["Military Units gain -20% damage received inside Atreides borders", 
+                      "+2 Armor to Military Units if there are 2 or more in the same region", 
+                      "Unlocks Heavy Militia"],
+              "childs": 
+              [
+                {
+                  "name": "Air Command",
+                  "perks": ["+4 Command Point", 
+                          "+20% Health for flying units",
+                          "+20% range for Missile Batteries, Airfields and Arrakeen"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "name": "New Homeland",
+            "perks": ["Military units have +20% Power inside Atreides borders", "-20% Militia training time", 
+            "+20% Missile Battery Power"],
+            "childs": 
+            [
+              {
+                "name": "Call to Arms",
+                "perks": ["+20% Manpower production", "-20% Military Unit Solari recruitment cost", "Unlocks the Warden unit"],
+                "childs": 
+                [
+                  {
+                    "name": "High Command",
+                    "perks": ["-20% Warden Solari upkeep", "+4 Command Point", "+1 Armor for all Military Units"]
+                  }
+                ]
+              },
+              {
+                "name": "Ground Command",
+                "perks": ["+4 Command Point", "-30% Military Unit Solari Upkeep", "Unlocks the Recruitment Center Building in Arrakeen"]
+              }
+            ]
+          }
+      ]
+}]

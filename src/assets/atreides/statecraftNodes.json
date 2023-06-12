@@ -1,0 +1,67 @@
+[{
+    "name": "Intelligence Network",
+    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "childs": 
+      [
+        {
+          "name": "Diplomatic Maneuvers",
+          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration", 
+                    "Agents assigend on a faction in Truce produce 10 Solari", 
+                    "Unlocks the Political Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Negotiation Tactics",
+              "perks": ["Minor Houses deliver Dump Box near Arrakeen after every Landsraad Council",
+                        "Agents assigend on Spacing Guild Infiltration proudce 0,1 Guild Favor",
+                        "10% CHAOM Share dividents per agent assigend to CHOAM Infiltration"],
+              "childs": 
+              [
+                {
+                  "name": "Sand Diplomancy",
+                  "perks": ["Agents assigned on Arrakis Infiltration produce 30% more Authority",
+                   "+30% relation gain with Sietch",
+                   "+30% received resources when trading with Sietch"]
+                }
+              ]
+            },
+            {
+                "name": "Political Stance",
+                "perks": [
+                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council", 
+                    "Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
+                     "Unlocks Embassy Building in Arrakeen"
+                    ]
+              }
+          ]
+        },
+        {
+          "name": "Spying Logistic",
+          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Arrakeen"],
+          "childs": 
+          [
+            {
+              "name": "Atreides Delegations",
+              "perks": ["Unlocks the Council Chamber Building in Arrakeen",
+                        "-50% Treaty upkeep costs",
+                        "-50% Non-aggression Pact cost"],
+              "childs": 
+              [
+                {
+                  "name": "Atreides Sympathizers",
+                  "perks": ["+1 Influence and Intel per agent assigned to Counterintelligence",
+                   "Agents assigned on Landsraad Infiltration produce 100% more Intel",
+                   "+5 max Agents"]
+                }
+              ]
+            },
+            {
+                "name": "Counter Measures",
+                "perks": ["+150% Agent recruitment speed",
+                        "Detect units with Camouflage from 50% further away", 
+                        "Unlocks 1 Agent slot in Counterintelligence"]
+            }
+          ]
+        }
+      ]
+}]
