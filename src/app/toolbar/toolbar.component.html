@@ -1,13 +1,13 @@
 <mat-toolbar>
   <mat-toolbar-row>
     <span class="fill-remaining-space">
-      <button mat-button [matMenuTriggerFor]="menu">Select Faction</button>
+      <button mat-button [matMenuTriggerFor]="menu">{{selectedFaction}}</button>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item>Corino</button>
-        <button mat-menu-item>Atreides</button>
-        <button mat-menu-item>Smuggler</button>
-        <button mat-menu-item>Fremen</button>
-        <button mat-menu-item>Harkonnen</button>
+        <button mat-menu-item (click)="selectFaction('Corino')">Corino</button>
+        <button mat-menu-item (click)="selectFaction('Atreides')">Atreides</button>
+        <button mat-menu-item (click)="selectFaction('Smuggler')">Smuggler</button>
+        <button mat-menu-item (click)="selectFaction('Fremen')">Fremen</button>
+        <button mat-menu-item (click)="selectFaction('Harkonnen')">Harkonnen</button>
       </mat-menu>
     </span>
     <span class="fill-remaining-space">Dune Tech Tree</span>

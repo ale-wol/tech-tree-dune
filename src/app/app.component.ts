@@ -12,6 +12,8 @@ export class AppComponent {
 
   gridresponsivecols: number = 1;
 
+  selectedFaction: string = "Corino";
+
   corinoEcoNodes: TechNode[] = [];
   corinoArrNodes: TechNode[] = [];
   corinoMilNodes: TechNode[] = [];

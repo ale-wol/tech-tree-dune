@@ -1,4 +1,4 @@
-<app-toolbar></app-toolbar>
+<app-toolbar [selectedFaction]="selectedFaction"></app-toolbar>
 <mat-grid-list  [cols]="gridresponsivecols"  rowHeight="2:1" (window:resize)="handleSize($event)">
     <mat-grid-tile *ngFor="let nodes of [corinoEcoNodes, corinoMilNodes, corinoStaNodes, corinoArrNodes]">
       <mat-card>

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-toolbar',
@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./toolbar.component.css']
 })
 export class ToolbarComponent {
-  selected = 'Corino';
+  @Input() selectedFaction: string = "";
 
+  selectFaction(faction: string) {
+    this.selectedFaction = faction;
+    console.log('Selected faction:', faction);
+  }
 }
