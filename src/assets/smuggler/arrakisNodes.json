@@ -1,0 +1,59 @@
+[{
+    "name": "Local Dialect Studies",
+    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building"],
+    "childs": 
+      [
+        {
+          "name": "Paracompass",
+          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+        },
+        {
+          "name": "Water Sellers Contacts",
+          "perks": ["-20% Military Unit Water Upkeep", "-20% Water Upkeep on Villages", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "childs": 
+          [
+            {
+              "name": "Water Trade",
+              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Sietch Tuek"]
+            }
+          ]
+        },
+        {
+            "name": "Natives Knowledge",
+            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "childs": 
+            [
+              {
+                "name": "Local Hubs",
+                "perks": ["+0,25 Knowledge per controlled Village", 
+                        "-15% Village Buildings construction costs", 
+                        "Unlocks the Research Agreement Treaty"],
+                "childs": 
+                [
+                  {
+                    "name": "Lay of the Land",
+                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
+                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
+                            "+30% Militia Health"]
+                  }
+                ]
+              },
+              {
+                "name": "Underground Network",
+                "perks": ["Distance based Authority cost to Annex a Village are reduced by 40%", 
+                        "+6 Solari production for each Village neighboring enemy territory", 
+                        "Unlocks the Investment Office Village Building"],
+                "childs": 
+                [
+                  {
+                    "name": "Illicit Methods",
+                    "perks": ["Regain 20% Supply after participating in a kill", 
+                    "Ignore the cost penalty to Annex pillaged Villages",
+                    "Missile Battery deals damage to enemy Supply"]
+                  }
+                ]
+              }
+            ]
+        }
+      ]
+}]

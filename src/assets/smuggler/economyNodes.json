@@ -1,0 +1,56 @@
+[{
+    "name": "Composite Materials",
+    "perks": ["+15% Plascrate production", "+25% Village Buildings construction speed"],
+    "childs": 
+      [
+        {
+          "name": "Underworld Contacts",
+          "perks": ["+30% Solari from pillaging a Village Underworld Headquarters produce 30% of the Village's Plascrete production",
+          "-30% gear customisation costs in the Barracks"],
+          "childs": 
+          [
+              {
+                "name": "Energy Markets",
+                "perks": ["+20% Fuel Cell", "+2 Solari per Spare Fuel Cell"]
+              }
+          ]
+        },
+        {
+          "name": "Modular Parts",
+          "perks": ["1+ Crew assignable on Harvesters", "Unlocks Harvester Works Building in Sietch Tuek", "Unlocks Trade Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Tinkerer Teams",
+              "perks": ["1+ Crew assignable on Harvesters", 
+              "Underworld Headquarters produce 20% of their Village's Spice production",
+              "Unlocks the Spice Silots Village Building"],
+              "childs": 
+              [
+                {
+                  "name": "Crew Training Program",
+                  "perks": ["1+ Crew assignable on Harvesters", "+5% Spice Gathering Rate", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                }
+              ]
+            },
+            {
+              "name": "Economic Lobbying",
+              "perks": ["Allows the training of Mercenary", "Unlocks 1 Agent Slot in Choam Infiltration", "Unlocks the Choam Branch Building in Sietch Tuek"],
+              "childs":               
+              [
+                {
+                  "name": "CHOAM Support",
+                  "perks": ["-15% CHOAM Share Buying Price", "+35% Solari from CHOAM Share dividends"]
+                },
+                {
+                  "name": "Riches of Arrakis",
+                  "perks": ["+20 Solari production per controlled Special Region", 
+                  "+2% total Solari production per controlled Special Region",
+                  "+20% Village resource production in Special Regions"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}]
