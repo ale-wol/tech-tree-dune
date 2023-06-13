@@ -1,0 +1,54 @@
+[{
+    "name": "Composite Materials",
+    "perks": ["+15% Plascrate production", "+25% Village Buildings construction speed"],
+    "childs": 
+      [
+        {
+          "name": "Advanced Engineering",
+          "perks": ["+5% Ressource Production in Villages per Building on extra Slot", "Unlocks Spice Silos Village Building"],
+          "childs": 
+          [
+              {
+                "name": "Energy Markets",
+                "perks": ["+20% Fuel Cell", "+2 Solari per Spare Fuel Cell"]
+              }
+          ]
+        },
+        {
+          "name": "Modular Parts",
+          "perks": ["1+ Crew assignable on Harvesters", "Unlocks Harvester Works Building in Carthag", "Unlocks Trade Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Gridex Plane",
+              "perks": ["1+ Crew assignable on Harvesters", "+5% bonus Choam Spice Exchange Rate"],
+              "childs": 
+              [
+                {
+                  "name": "Crew Training Program",
+                  "perks": ["1+ Crew assignable on Harvesters", "+5% Spice Gathering Rate", 
+                  "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                }
+              ]
+            },
+            {
+              "name": "Economic Lobbying",
+              "perks": ["Allows the training of Mercenary", "Unlocks 1 Agent Slot in Choam Infiltration", "Unlocks the Choam Branch Building in Carthag"],
+              "childs":               
+              [
+                {
+                  "name": "Harkonnen Negotiation",
+                  "perks": ["+5% CHOAM Spice exchange rate per agent assigned to CHOAM Infiltration",
+                  "+30 Solari production, as long as at least one Village is under Oppression"]
+                },
+                {
+                  "name": "Martial Economy",
+                  "perks": ["-30% Military Unit Solari Upkeep",
+                  "-30% Military Unit Solari recruitment cost"]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+}]

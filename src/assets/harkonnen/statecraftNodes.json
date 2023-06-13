@@ -1,0 +1,67 @@
+[{
+    "name": "Intelligence Network",
+    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "childs": 
+      [
+        {
+          "name": "Harkonnen Legacy",
+          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration",
+          "Ignore Corruption negative effects",
+          "10% chance every day to convert captured Agents"],
+          "childs": 
+          [
+            {
+              "name": "Cruel Reputation",
+              "perks": ["Launching an operation on enemy units or Villages gives 10 Influence",
+              "Agents assigned on Spacing Guild Infiltration produce 0,1 Guild Favor",
+              "Unlocks the Political Agreement Treaty"],
+              "childs": 
+              [
+                {
+                  "name": "Sand Diplomancy",
+                  "perks": ["Agents assigned on Arrakis Infiltration produce 30% more Authority",
+                   "+30% relation gain with Sietch",
+                   "+30% received resources when trading with Sietch"]
+                }
+              ]
+            },
+            {
+                "name": "Political Stance",
+                "perks": [
+                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council", 
+                    "Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
+                     "Unlocks Embassy Building in Carthag"
+                    ]
+              }
+          ]
+        },
+        {
+          "name": "Spying Logistic",
+          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Carthag"],
+          "childs": 
+          [
+            {
+              "name": "Stealth Gear",
+              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
+              "-15% daily Supply drain in enemy territory",
+              "-50% spying mission Solari cost"],
+              "childs": 
+              [
+                {
+                  "name": "Spying Mastery",
+                  "perks": ["+3 Intel production per ally Sietch",
+                  "+5 max Agents",
+                  "Allows the training of Assassin"]
+                }
+              ]
+            },
+            {
+                "name": "Counter Measures",
+                "perks": ["+150% Agent recruitment speed",
+                        "Detect units with Camouflage from 50% further away", 
+                        "Unlocks 1 Agent slot in Counterintelligence"]
+            }
+          ]
+        }
+      ]
+}]

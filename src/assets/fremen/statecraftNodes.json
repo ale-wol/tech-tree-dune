@@ -1,0 +1,66 @@
+[{
+    "name": "Intelligence Network",
+    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "childs": 
+      [
+        {
+          "name": "Diplomatic Maneuvers",
+          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration", 
+                    "Agents assigend on a faction in Truce produce 10 Solari", 
+                    "Unlocks the Political Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Sietch Network",
+              "perks": ["+5% Intel production per ally Sietch",
+              "+50% Agent recruitment speed per ally Sietch",
+              "Unlocks the Bazaar Building in Sietch Tabr"],
+              "childs": 
+              [
+                {
+                  "name": "Sand Diplomancy",
+                  "perks": ["Agents assigned on Arrakis Infiltration produce 30% more Authority",
+                   "+30% relation gain with Sietch",
+                   "+30% received resources when trading with Sietch Tabr"]
+                }
+              ]
+            },
+            {
+              "name": "Political Stance",
+              "perks": [
+                  "3 Landsraad Guards appear near Imperial Base after every Landsraad Council", 
+                  "Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
+                   "Unlocks Embassy Building in Sietch Tabr"
+                  ]
+              }
+          ]
+        },
+        {
+          "name": "Spying Logistic",
+          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Sietch Tabr"],
+          "childs": 
+          [
+            {
+              "name": "Stealth Gear",
+              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
+              "-15% daily Supply drain in enemy territory",
+              "-50% spying mission Solari cost"],
+              "childs": 
+              [
+                {
+                  "name": "Desert Shadows",
+                  "perks": ["You can assign 1 more Agents to CHOAM Infiltration",
+                  "+5 max Agents", "Allows the training of Assassin"]
+                }
+              ]
+            },
+            {
+                "name": "Counter Measures",
+                "perks": ["+150% Agent recruitment speed",
+                        "Detect units with Camouflage from 50% further away", 
+                        "Unlocks 1 Agent slot in Counterintelligence"]
+            }
+          ]
+        }
+      ]
+}]

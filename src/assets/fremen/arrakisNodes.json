@@ -1,6 +1,6 @@
 [{
-    "name": "Megalopolis",
-    "perks": ["Ally Villages neigbouring Imperial Base get: +20% ressource production", "+20% Militia Health", "Unlocks the Crafts Workshop Village Building"],
+    "name": "Local Dialect Studies",
+    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building"],
     "childs": 
       [
         {
@@ -8,13 +8,18 @@
           "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
         },
         {
-          "name": "Water Sellers Contacts",
-          "perks": ["-20% Military Unit Water Upkeep", "-20% Water Upkeep on Villages", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "name": "Sand Brotherhood",
+          "perks": ["+15% Authority production per controlled Deep desert",
+          "-25% Water Upkeep on Villages", 
+          "Unlocks the Recycling Vats Building in Sietch Tabr"],
           "childs": 
           [
             {
-              "name": "Water Trade",
-              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Imperial Base"]
+              "name": "Dune Wanderers",
+              "perks": ["-30% Military Unit Water Upkeep",
+              "Ground Military Units in Deep desert gain Only visible from close range",
+              "-30% daily Supply drain Speed not reduced by Deep deserts",
+              "Agents assigned on Arrakis Infiltration produce 0,1 Machine Scraps"]
             }
           ]
         },
@@ -24,10 +29,10 @@
             "childs": 
             [
               {
-                "name": "Administrative Consolidation",
-                "perks": ["+0,5 Knowledge per completed district", 
-                        "Imperial Bases gain: +50% Airfield range, Attacks from 50% further", 
-                        "Unlocks the Research Agreement Treaty"],
+                "name": "Heir of Arrakis",
+                "perks": ["Increase time to Annex and Liberate Fremen Villages by 20%",
+                "+1 Authority production per occupied enemy Village (x5 max)",
+                "Unlocks the Research Agreement Treaty"],
                 "childs": 
                 [
                   {
@@ -39,10 +44,9 @@
                 ]
               },
               {
-                "name": "Imperial Administration",
-                "perks": ["+10% resource production in ally villages with 4 or more Buildings of the same type", 
-                        "Unlocks the Decoy Thumper spying mission", 
-                        "+1 instances of the Villages traits in ally Villages neigboring Imperial Bases",
+                "name": "Outpost Logistics",
+                "perks": ["Owned Villages Authority penalty to Annex a new Village is reduced by 30%", 
+                        "-10% Upkeep on Villages", 
                         "Unlocks the Investment Office Village Building"],
                 "childs": 
                 [

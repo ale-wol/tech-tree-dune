@@ -1,11 +1,13 @@
 [{
-    "name": "Megalopolis",
-    "perks": ["Ally Villages neigbouring Imperial Base get: +20% ressource production", "+20% Militia Health", "Unlocks the Crafts Workshop Village Building"],
+    "name": "Local Dialect Studies",
+    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building in Carthag"],
     "childs": 
       [
         {
-          "name": "Paracompass",
-          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+          "name": "Instill Fear",
+          "perks": ["-10% Authority cost to Annex pillaged Villages", 
+          "-50% Authority cost to Annex again a Village owned by Harkonnen in the past",
+          "Unlocks the Shaping Center Building in Carthag"]
         },
         {
           "name": "Water Sellers Contacts",
@@ -14,7 +16,7 @@
           [
             {
               "name": "Water Trade",
-              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Imperial Base"]
+              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Carthag"]
             }
           ]
         },
@@ -24,9 +26,9 @@
             "childs": 
             [
               {
-                "name": "Administrative Consolidation",
-                "perks": ["+0,5 Knowledge per completed district", 
-                        "Imperial Bases gain: +50% Airfield range, Attacks from 50% further", 
+                "name": "Monitoring Networks",
+                "perks": ["-25% Oppression Cost",
+                        "Increases Agent recruitment speed based on the number of Villages", 
                         "Unlocks the Research Agreement Treaty"],
                 "childs": 
                 [
@@ -39,10 +41,9 @@
                 ]
               },
               {
-                "name": "Imperial Administration",
-                "perks": ["+10% resource production in ally villages with 4 or more Buildings of the same type", 
-                        "Unlocks the Decoy Thumper spying mission", 
-                        "+1 instances of the Villages traits in ally Villages neigboring Imperial Bases",
+                "name": "Outpost Logistics",
+                "perks": ["Owned Villages Authority penalty to Annex a new Village is reduced by 30%", 
+                        "-10%Upkeep on Villages", 
                         "Unlocks the Investment Office Village Building"],
                 "childs": 
                 [

@@ -1,0 +1,58 @@
+[{
+    "name": "Survival Training",
+    "perks": ["+30% max Supply", "Unlocks the Military Base Village Building", "Unlocks Sniper Unit"],
+    "childs": 
+      [
+        {
+          "name": "Defense Systems",
+          "perks": ["+1 Militia slot", "+1 Missile Battery limit", "Unlocks the Enhanced Fortifications Building in Sietch Tabr"]
+        },
+        {
+          "name": "Support Structures",
+          "perks": ["Unlocks 1 Agent slot in Spacing Guild Infiltration", 
+                  "Unlocks the Command Post Building in Sietch Tabr",
+                  "Unlocks the Mobile Turret unit"],
+          "childs": 
+          [
+            {
+              "name": "True People",
+              "perks": ["+30 Manpower when liberating a Village",
+              "Unlocks the Al-Gaib Temple Building in Sietch Tabr",
+              "Unlocks the Tribute diplomatic action"],
+              "childs": 
+              [
+                {
+                  "name": "Fremen Command",
+                  "perks": ["+4 Command Point", 
+                          "+20% Machine Scraps gained on kills",
+                          "Liberating a Village grants 20% of its Pillage rewards"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Army Logistics",
+          "perks": ["Gain 30 Plascrete by pillaging a Village", "+30% resources from pillaging a Village", 
+          "Ground Military Units occupying a Village gain +30% Health regenaration per day outside combat"],
+            "childs": 
+            [
+              {
+                "name": "Call to Arms",
+                "perks": ["+20% Manpower production", "-20% Military Unit Solari recruitment cost", "Unlocks the Fedaykin unit"],
+                "childs": 
+                [
+                  {
+                    "name": "High Command",
+                    "perks": ["-20% Fedaykin upkeep", "+4 Command Point", "+1 Armor for all Military Units"]
+                  }
+                ]
+              },
+              {
+                "name": "Ground Command",
+                "perks": ["+4 Command Point", "-30% Military Unit Solari Upkeep", "Unlocks the Recruitment Center Building in Sietch Tabr"]
+              }
+            ]
+          }
+      ]
+}]
