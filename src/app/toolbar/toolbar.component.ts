@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { SharedService } from '../shared.service';
 
 @Component({
   selector: 'app-toolbar',
@@ -6,10 +7,12 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./toolbar.component.css']
 })
 export class ToolbarComponent {
-  @Input() selectedFaction: string = "";
+  @Input() selectedFaction: string ="";
+
+  constructor(private sharedService: SharedService) { }
 
   selectFaction(faction: string) {
-    this.selectedFaction = faction;
+    this.sharedService.updateSelectedFaction(faction);
     console.log('Selected faction:', faction);
   }
 }
