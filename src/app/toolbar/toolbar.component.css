@@ -1,6 +1,6 @@
 .mat-toolbar {
-    background: #e3caa2;
-    color: #834b3d;
+    background: #f3dcc2;
+    color: #948667;
   }
 
   .fill-remaining-space {
@@ -11,4 +11,8 @@
 
   ::ng-deep .mat-mdc-menu-panel{
     background-color:#7E7E7E;
+  }
+
+  ::ng-deep .mat-mdc-menu-item:hover{
+    background-color: white;
   }

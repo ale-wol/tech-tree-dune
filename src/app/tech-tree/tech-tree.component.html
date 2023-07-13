@@ -3,11 +3,6 @@
 [class.no-border]="!itm.getParent">
 
    <div class='item'>
-      <!--
-      <div *ngFor="let perk of itm.perks; index as i">
-         {{perk}}
-      </div>
-      -->
       <div class='inner-item' [ngbTooltip]="tipContent" (mouseenter)="generateTooltipContent(itm)">
          {{itm.name}} 
       </div>
