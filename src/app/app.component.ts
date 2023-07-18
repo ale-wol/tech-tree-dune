@@ -1,8 +1,10 @@
-import { Component, Injectable, Input } from '@angular/core';
+import { Component} from '@angular/core';
 import { TechNode } from './models/tech-node';
 import { AddNodesService } from './add-nodes.service';
 import { firstValueFrom } from 'rxjs';
 import { SharedService } from './shared.service';
+import { MatIconRegistry } from "@angular/material/icon";
+import { DomSanitizer } from "@angular/platform-browser";
 
 @Component({
   selector: 'app-root',
@@ -41,44 +43,13 @@ export class AppComponent {
   smugMilNodes: TechNode[] = [];
   smugStaNodes: TechNode[] = [];
 
-  constructor(private nodeService: AddNodesService, private sharedService: SharedService) {
-    /*
-    this.nodeService.parseNodesFromJSONFile("./assets/corrino/economyNodes.json").subscribe(
-      (techNodes: TechNode[]) => {
-        this.corinoEcoNodes = techNodes;
-      },
-      (error) => {
-        console.error('Error parsing JSON:', error);
-      }
+  constructor(private nodeService: AddNodesService, private sharedService: SharedService, 
+    private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
+
+    this.matIconRegistry.addSvgIcon(
+      `dune_logo`,
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/img/dune_spice_wars2.svg")
     );
-
-    this.nodeService.parseNodesFromJSONFile("./assets/corrino/arrakisNodes.json").subscribe(
-      (techNodes: TechNode[]) => {
-        this.corinoArrNodes = techNodes;
-      },
-      (error) => {
-        console.error('Error parsing JSON:', error);
-      }
-    );
-
-    this.nodeService.parseNodesFromJSONFile("./assets/corrino/militaryNodes.json").subscribe(
-      (techNodes: TechNode[]) => {
-        this.corinoMilNodes = techNodes;
-      },
-      (error) => {
-        console.error('Error parsing JSON:', error);
-      }
-    );
-
-
-    this.nodeService.parseNodesFromJSONFile("./assets/corrino/statecraftNodes.json").subscribe(
-      (techNodes: TechNode[]) => {
-        this.corinoStaNodes = techNodes;
-      },
-      (error) => {
-        console.error('Error parsing JSON:', error);
-      }
-    );*/
 
     this.addJsonNodesToList("./assets/corrino/economyNodes.json").then(
       data => (this.corinoEcoNodes = data)

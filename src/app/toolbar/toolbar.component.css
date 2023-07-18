@@ -1,5 +1,6 @@
 .mat-toolbar {
     background: #f3dcc2;
+    /*background: black;*/
     color: #948667;
   }
 
@@ -7,6 +8,11 @@
     /* This fills the remaining space, by using flexbox. 
        Every toolbar row uses a flexbox row layout. */
     flex: 1 1 auto;
+  }
+
+  .dune_logo {
+    position: absolute;
+    top: 7px;
   }
 
   ::ng-deep .mat-mdc-menu-panel{

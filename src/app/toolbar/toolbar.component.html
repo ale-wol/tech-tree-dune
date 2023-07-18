@@ -2,6 +2,7 @@
   <mat-toolbar-row>
     <span class="fill-remaining-space">
       <button mat-button [matMenuTriggerFor]="menu">{{selectedFaction}}</button>
+      <span class="dune_logo"><mat-icon svgIcon="dune_logo"></mat-icon></span>
       <mat-menu #menu="matMenu">
         <button mat-menu-item (click)="selectFaction('Corrino')">Corrino</button>
         <button mat-menu-item (click)="selectFaction('Atreides')">Atreides</button>

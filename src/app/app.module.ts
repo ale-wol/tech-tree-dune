@@ -9,6 +9,7 @@ import { NgbTooltipModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MaterialModule } from './material.module';
+import { MatIconModule } from "@angular/material/icon";
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { MaterialModule } from './material.module';
     NgbTooltipModule,
     NgbModule,
     MaterialModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
