@@ -43,6 +43,11 @@ export class AppComponent {
   smugMilNodes: TechNode[] = [];
   smugStaNodes: TechNode[] = [];
 
+  ecazEcoNodes: TechNode[] = [];
+  ecazArrNodes: TechNode[] = [];
+  ecazMilNodes: TechNode[] = [];
+  ecazStaNodes: TechNode[] = [];
+
   constructor(private nodeService: AddNodesService, private sharedService: SharedService, 
     private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
 
@@ -114,6 +119,19 @@ export class AppComponent {
     );
     this.addJsonNodesToList("./assets/smuggler/statecraftNodes.json").then(
       data => (this.smugStaNodes = data)
+    );
+
+    this.addJsonNodesToList("./assets/ecaz/economyNodes.json").then(
+      data => (this.ecazEcoNodes = data)
+    );
+    this.addJsonNodesToList("./assets/ecaz/arrakisNodes.json").then(
+      data => (this.ecazArrNodes = data)
+    );
+    this.addJsonNodesToList("./assets/ecaz/militaryNodes.json").then(
+      data => (this.ecazMilNodes = data)
+    );
+    this.addJsonNodesToList("./assets/ecaz/statecraftNodes.json").then(
+      data => (this.ecazStaNodes = data)
     );
   }
 

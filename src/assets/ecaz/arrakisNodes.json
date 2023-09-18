@@ -1,0 +1,54 @@
+[{
+    "name": "Local Dialect Studies",
+    "perks": ["+15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
+    "childs": 
+      [
+        {
+          "name": "Lay of the Land",
+          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
+        },
+        {
+          "name": "Manichean Propaganda",
+          "perks": ["+1 Militia Slot", "Other factions lose 5 Influence when killing an Ecazi Militia"],
+          "childs": 
+          [
+            {
+              "name": "Prideful Crown",
+              "perks": ["Villages at a distance of 2 region from the Garden Resort gain:" , 
+              "-40% Authority cost to Annex", "+50% Militia Power", "+50% Militia Health"],
+              "childs": 
+              [
+                {
+                  "name": "Border Defense",
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "name": "Native Artists",
+            "perks": ["Masterpieces increase relation with Sietches in the same region", "Unlocks the Investment Office Village Building", 
+            "Unlocks the Museum of Unbound Arts Building"],
+            "childs": 
+            [
+              {
+                "name": "Outpost Logistics",
+                "perks": ["Owned Villages Authority penalty to Annex a Village is reduced by 30%", 
+                        "+1 Agent slot in Arrakis Information"]
+              },
+              {
+                "name": "Valuable Trinkets",
+                "perks": ["+100% resources received from trading with an allied Sietch", "Unlocks the Crafts Workshop Village Building"],
+                "childs": 
+                [
+                  {
+                    "name": "Wonders of the Desert",
+                    "perks": ["+30% resource production in Special Regions", "No penalty Authrotiy cost to Annex a Village in a Special Region"]
+                  }
+                ]
+              }
+            ]
+        }
+      ]
+}]

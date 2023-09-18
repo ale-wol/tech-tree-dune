@@ -1,0 +1,58 @@
+[{
+    "name": "Survival Training",
+    "perks": ["+30% max Supply", "Unlocks the Military Base Village Building", "Unlocks Incinerator Unit"],
+    "childs": 
+      [
+        {
+          "name": "Defense Systems",
+          "perks": ["+1 Militia slot", "+1 Missile Battery limit", "Unlocks the Enhanced Fortifications Building in Imperial Base"]
+        },
+        {
+          "name": "Support Structures",
+          "perks": ["Unlocks 1 Agent slot in Spacing Guild Infiltration", 
+                  "Unlocks the Command Post Building in Imperial Base",
+                  "Unlocks the Artillery Drone unit"],
+          "childs": 
+          [
+            {
+              "name": "Imperial Protocols",
+              "perks": ["Military Units gain +10% Power for each active Imperial Mandate", 
+                      "-20% daily Supply drain", 
+                      "Regions owned by players in Truce do not drain Supply"],
+              "childs": 
+              [
+                {
+                  "name": "Imperial Command",
+                  "perks": ["+4 Command Point", 
+                          "Airfields belonging to other factions in Regions with active operations can be used for 4 additional Influence per unit.",
+                          "10 Military Units or more in the same region gains:  +10% Power; -10% damage received"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+            "name": "Army Logistics",
+            "perks": ["Gain 30 Plascrete by pillaging a Village", "+30% resources from pillaging a Village", 
+            "Ground Military Units occupying a Village gain +30% Health regenaration per day outside combat"],
+            "childs": 
+            [
+              {
+                "name": "Call to Arms",
+                "perks": ["+20% Manpower production", "-20% Military Unit Solari recruitment cost", "Unlocks the Sardaukar unit"],
+                "childs": 
+                [
+                  {
+                    "name": "High Command",
+                    "perks": ["-20% Sardaukar Solari upkeep", "+4 Command Point", "+1 Armor for all Military Units"]
+                  }
+                ]
+              },
+              {
+                "name": "Ground Command",
+                "perks": ["+4 Command Point", "-30% Military Unit Solari Upkeep", "Unlocks the Recruitment Center Building in Imperial Base"]
+              }
+            ]
+          }
+      ]
+}]

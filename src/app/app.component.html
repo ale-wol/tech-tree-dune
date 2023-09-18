@@ -35,4 +35,11 @@
       </mat-card>
     </mat-grid-tile>
   </div>
+  <div *ngIf="selectedFaction == 'Ecaz'">
+    <mat-grid-tile *ngFor="let nodes of [ecazEcoNodes, ecazMilNodes, ecazStaNodes, ecazArrNodes]">
+      <mat-card>
+        <app-tech-tree [childs]="nodes"></app-tech-tree>
+      </mat-card>
+    </mat-grid-tile>
+  </div>
 </mat-grid-list>

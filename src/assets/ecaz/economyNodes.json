@@ -1,0 +1,48 @@
+[{
+    "name": "Composite Materials",
+    "perks": ["+10 Plascrete production", "Unlocks the Maintenance Center Village Building"],
+    "childs": 
+      [
+        {
+          "name": "Modular Parts",
+          "perks": ["+1 maximum Crew in Harvesters", "Unlocks the Spice Silos Village Building", "Unlocks the Harvester Works Building in Foliage"],
+          "childs": 
+          [
+              {
+                "name": "CHOAM Integration",
+                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Foliage", "+1 Agent slot in CHOAM Information"],
+                "childs": 
+                [
+                    {
+                      "name": "Crew Training Program",
+                      "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                    },
+                    {
+                      "name": "CHOAM Support",
+                      "perks": ["-15% CHOAM Share Buying Price", "+0,1 Spice exchange rate per 5% CHOAM Share"]
+                    }
+                ]
+              }
+          ]
+        },
+        {
+          "name": "Artistic Aspirations",
+          "perks": ["Gain 100 Solari upon building a Masterpiece", "-50% cost to add a Building slot", "Unlocks the Mason Guild in Foliage"],
+          "childs": 
+          [
+            {
+              "name": "Filtration Systems",
+              "perks": ["+0,2 Spice production per positive Water", "Unlocks the Wintrap Village Building"]
+            },
+            {
+              "name": "Cultural Tourism",
+              "perks": ["Unlocks the Trade Agreement Treaty", "Each Sanctuary provides", "+10 Solari production", "+5 Water"]
+            },
+            {
+              "name": "Riches of Arrakis",
+              "perks": ["+10 Solari production per controlled Special Region", "+1% total Solari production per controlled Special Region"]
+            }
+          ]
+        }
+      ]
+}]
