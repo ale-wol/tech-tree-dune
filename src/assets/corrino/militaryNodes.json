@@ -1,56 +1,55 @@
 [{
     "name": "Survival Training",
-    "perks": ["+30% max Supply", "Unlocks the Military Base Village Building", "Unlocks Incinerator Unit"],
+    "perks": ["Unlocks the Armory to customize units equipement", "Unlocks the Military Base Village Building"],
     "childs": 
       [
         {
-          "name": "Defense Systems",
-          "perks": ["+1 Militia slot", "+1 Missile Battery limit", "Unlocks the Enhanced Fortifications Building in Imperial Base"]
+          "name": "Imperial Command",
+          "perks": ["Can use Airfields of factions in Truce", "No Supply drain in regions owned by factions in Truce", 
+          "Unlocks the Barracks Building in Imperial Base"]
         },
         {
-          "name": "Support Structures",
-          "perks": ["Unlocks 1 Agent slot in Spacing Guild Infiltration", 
-                  "Unlocks the Command Post Building in Imperial Base",
-                  "Unlocks the Artillery Drone unit"],
+          "name": "Mechanization",
+          "perks": ["Unlocks the second gear slot in the Armory" , 
+          "Unlocks the Artillery Drone unit"],
           "childs": 
           [
             {
-              "name": "Imperial Protocols",
-              "perks": ["Military Units gain +10% Power for each active Imperial Mandate", 
-                      "-20% daily Supply drain", 
-                      "Regions owned by players in Truce do not drain Supply"],
+              "name": "Energy Efficiency",
+              "perks": ["+50% Fuel Cell", 
+                      "-1 mechanical units Fuel Cell Requirement"],
               "childs": 
               [
                 {
-                  "name": "Imperial Command",
-                  "perks": ["+4 Command Point", 
-                          "Airfields belonging to other factions in Regions with active operations can be used for 4 additional Influence per unit.",
-                          "10 Military Units or more in the same region gains:  +10% Power; -10% damage received"]
+                  "name": "Parts Production",
+                  "perks": ["+20% mechanical units Health", 
+                          "+50% mechanical units regeneration speed",
+                          "-30% mechanical units regeneration costs"]
                 }
               ]
             }
           ]
         },
         {
-            "name": "Army Logistics",
-            "perks": ["Gain 30 Plascrete by pillaging a Village", "+30% resources from pillaging a Village", 
-            "Ground Military Units occupying a Village gain +30% Health regenaration per day outside combat"],
+            "name": "Recruitment Initiative",
+            "perks": ["+5 Command Point", "+20& Manpower production" 
+            , "Unlocks the Command Post Building in Imperial Base"],
             "childs": 
             [
               {
-                "name": "Call to Arms",
-                "perks": ["+20% Manpower production", "-20% Military Unit Solari recruitment cost", "Unlocks the Sardaukar unit"],
+                "name": "Parallel Training",
+                "perks": ["+2 Training Slot", "Unlocks the Military Academy Building in Imperial Base", "+1 Agent slot in Spacing Guild Information"],
                 "childs": 
                 [
                   {
-                    "name": "High Command",
-                    "perks": ["-20% Sardaukar Solari upkeep", "+4 Command Point", "+1 Armor for all Military Units"]
+                    "name": "Imperial Protocols",
+                    "perks": ["+10 Command Point", "Units gain +3 Armor in regions with more Corrino units than all other factions"]
+                  },
+                  {
+                    "name": "Siege Incentives",
+                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
-              },
-              {
-                "name": "Ground Command",
-                "perks": ["+4 Command Point", "-30% Military Unit Solari Upkeep", "Unlocks the Recruitment Center Building in Imperial Base"]
               }
             ]
           }

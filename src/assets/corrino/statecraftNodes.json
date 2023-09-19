@@ -1,61 +1,61 @@
 [{
-    "name": "Intelligence Network",
-    "description": "Agents assigned on CHOAM Infiltration produce 100% more Solari; Agents assigned on Landsraad Infiltration produce 100% more Influence",
-    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "name": "Absolute Power",
+    "perks": ["Proposing a Non-aggression Pact has no cost if no Truce is active", 
+    "Gain 10 Landsraad Standing after every Council if at least one Truce is active", 
+    "Unlocks the Embassy Buidling in Imerpial Base"],
     "childs": 
       [
         {
-          "name": "Diplomatic Maneuvers",
-          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration", 
-                    "Agents assigend on a faction in Truce produce 10 Solari", 
-                    "Unlocks the Political Agreement Treaty"],
+          "name": "Diplomatic Spying",
+          "perks": ["+2 Influence production per Agents assigned on a faction in Truce", 
+          "+2 Intel production per Agents assigned on a faction in Conflict",
+        "Unlocks the Political Agreement Treaty"],
           "childs": 
           [
             {
-              "name": "Negotiation Tactics",
-              "perks": ["Minor Houses deliver Dump Box near Imperial Base after every Landsraad Council",
-                        "Agents assigend on Spacing Guild Infiltration proudce 0,1 Guild Favor",
-                        "10% CHAOM Share dividents per agent assigend to CHOAM Infiltration"],
-              "childs": 
-              [
-                {
-                  "name": "Emperor Eyes",
-                  "perks": ["Fills 3 Counterintelligence slots with unmoveable Emperor Eye Agents", "Agents assigned on opposing factions produce +5 Intel"]
-                }
-              ]
+              "name": "Emperor Eyes",
+              "perks": ["Fills Counterintelligence slots with 3 unmovable Emperor Eye Agents",
+                      "-50% Military Units cost while victim of a treason"]
             },
             {
-                "name": "Political Stance",
-                "perks": [
-                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
-                     "Unlocks Embassy Building in Imperial Base"
-                    ]
+              "name": "Landsraad Support",
+              "perks": [
+                  "+50 max Influence per Agent assigned to a Landsraad Information slot",
+                   "+1 Agent slot in Landsraad Information"
+                  ],
+                "childs": 
+                [
+                  {
+                    "name": "Insider Trading",
+                    "perks": ["+20% CHOAM Share selling price",
+                            "Selling CHOAM Shares grants 1 Influence per Share"]
+                  }
+                ]
               }
           ]
         },
         {
           "name": "Spying Logistic",
-          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Imperial Base"],
+          "perks": ["Allows the training of Assassin", "+200% Agent recruitment speed", "Unlocks the Intelligence Agency Building in Imerpial Base"],
           "childs": 
           [
             {
               "name": "Stealth Gear",
-              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
-                        "-15% daily Supply drain in enemy territory",
-                        "-50%spying mission Solari cost"],
+              "perks": ["20% of an operation's Intel cost is refund when launched in the territory of a faction in Conflict",
+                        "Enemies have -50% chance to detect missions"],
               "childs": 
               [
                 {
                   "name": "Spying Mastery",
-                  "perks": ["+3 Intel production per ally Sietch", "+5 max Agents", "Allows the training of Assassin"]
+                  "perks": ["-50% impact from number of Agents on the time to recruit a new one",
+                   "+5 max Agents"]
                 }
               ]
             },
             {
-                "name": "Outrageous Wealth",
-                "perks": ["+5% unit Power per faction with less CHOAM Shares",
-                        "+2 Influence production per faction with less CHOAM Shares", 
-                        "Unlocks the Emperor Monument Building in Imperial Base"]
+                "name": "Nefarious Contacts",
+                "perks": ["-50% Assassin recruitment costs",
+                        "+1 max Infiltration Cells in each factions's territory"]
             }
           ]
         }

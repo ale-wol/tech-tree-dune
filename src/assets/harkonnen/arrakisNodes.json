@@ -1,55 +1,51 @@
 [{
     "name": "Local Dialect Studies",
-    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building in Carthag"],
+    "perks": ["+15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
     "childs": 
       [
         {
-          "name": "Instill Fear",
-          "perks": ["-10% Authority cost to Annex pillaged Villages", 
-          "-50% Authority cost to Annex again a Village owned by Harkonnen in the past",
-          "Unlocks the Shaping Center Building in Carthag"]
+          "name": "Lay of the Land",
+          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
-          "name": "Water Sellers Contacts",
-          "perks": ["-20% Military Unit Water Upkeep", "-20% Water Upkeep on Villages", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "name": "Local Hubs",
+          "perks": ["-15% Village Buidlings construction costs", "Unlocks the Investment Office Village Building"],
           "childs": 
           [
             {
-              "name": "Water Trade",
-              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Carthag"]
+              "name": "Civillian Defense Force",
+              "perks": ["+1 Militia Slot" , 
+              "+150 Militia Health", "-50% Airfield Upkeep"],
+              "childs": 
+              [
+                {
+                  "name": "Border Defense",
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                }
+              ]
             }
           ]
         },
         {
-            "name": "Natives Knowledge",
-            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "name": "Instill Fear",
+            "perks": ["-10% Authority cost to Annex pillaged Villages", 
+            "-50% Authority cost to Annex again Village owned by Harkonnen in the past"],
             "childs": 
             [
               {
-                "name": "Monitoring Networks",
-                "perks": ["-25% Oppression Cost",
-                        "Increases Agent recruitment speed based on the number of Villages", 
-                        "Unlocks the Research Agreement Treaty"],
-                "childs": 
-                [
-                  {
-                    "name": "Lay of the Land",
-                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
-                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
-                            "+30% Militia Health"]
-                  }
-                ]
+                "name": "Outpost Logistics",
+                "perks": ["Owned Villages Authority penalty to Annex a Village is reduced by 30%", 
+                        "+1 Agent slot in Arrakis Information"]
               },
               {
-                "name": "Outpost Logistics",
-                "perks": ["Owned Villages Authority penalty to Annex a new Village is reduced by 30%", 
-                        "-10%Upkeep on Villages", 
-                        "Unlocks the Investment Office Village Building"],
+                "name": "Savage Cleansing",
+                "perks": ["Pillaging a Sietch gives 100 Authority and immediatly reaveals another Sietch", 
+                "A successful Pillage resupply +25% of max Supply of units in the occupation circle"],
                 "childs": 
                 [
                   {
-                    "name": "Border Defense",
-                    "perks": ["+1 Militia Slot", "+20% Missile Battery Power", "Unlocks Heavy Militia"]
+                    "name": "Symbols of Authority",
+                    "perks": ["Oppressed Special Regions grant +1 Authority production", "Unlocks the Crafts Workshop Village Buidling"]
                   }
                 ]
               }

@@ -1,55 +1,49 @@
 [{
     "name": "Local Dialect Studies",
-    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building"],
+    "perks": ["+15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
     "childs": 
       [
         {
-          "name": "Paracompass",
-          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+          "name": "Lay of the Land",
+          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
-          "name": "Cultural Assimilation",
-          "perks": ["-15% duration of Peaceful Annexation", "+5 Solari production prer controlled Village", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "name": "Air Network",
+          "perks": ["-70% Airfield construction costs", "-70% Airfield Upkeep", "Shuttles are +100% faster"],
           "childs": 
           [
             {
-              "name": "Water Trade",
-              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Imperial Base"]
+              "name": "Veteran Militia",
+              "perks": ["-20% damage received by Military Units inside Atreides borders",
+              "+100% Militia Health", "+50% Militia Power"],
+              "childs": 
+              [
+                {
+                  "name": "Border Defense",
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                }
+              ]
             }
           ]
         },
         {
-            "name": "Natives Knowledge",
-            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "name": "Native Customs",
+            "perks": ["-20% Authority from Agents on a Arrakis Information slot", "-30% Authority cost to Annex a Village in a Region with a revealed Sietch"],
             "childs": 
             [
               {
-                "name": "Local Hubs",
-                "perks": ["+0,25 Knowledge per controlled Village", 
-                        "-15% Village Buildings construction costs", 
-                        "Unlocks the Research Agreement Treaty"],
-                "childs": 
-                [
-                  {
-                    "name": "Lay of the Land",
-                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
-                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
-                            "+30% Militia Health"]
-                  }
-                ]
+                "name": "Cultural Assimilation",
+                "perks": ["-20% Authority and Influence cost to use Peaceful Annexation", "Unlocks the Concord Chamber Village Building",
+                  "+1 Agent slot in Arrakis Information"]
               },
               {
-                "name": "Outpost Logistics",
-                "perks": ["Owned Villages Authority penalty to Annex a new Village is reduced by 30%", 
-                        "-10%Upkeep on Villages", 
-                        "Unlocks the Investment Office Village Building"],
+                "name": "Valuable Trinkets",
+                "perks": ["+100% resources received from trading with an allied Sietch", "Unlocks the Crafts Workshop Village Building"],
                 "childs": 
                 [
                   {
-                    "name": "Understand the Beauty",
-                    "perks": ["+5% total Influence production per controlled Special Region", 
-                    "+150 Militia Health in Special Region",
-                    "+15% Village resource production per controlled Special Region and their neighbours"]
+                    "name": "Wonders of the Desert",
+                    "perks": ["+30% resource production in Special Regions", "No penalty Authrotiy cost to Annex a Village in a Special Region"]
                   }
                 ]
               }

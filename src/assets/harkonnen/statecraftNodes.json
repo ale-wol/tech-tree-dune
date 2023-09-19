@@ -1,65 +1,60 @@
 [{
     "name": "Intelligence Network",
-    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "perks": ["Getting the chosen result on at least one resolution grants 10 Landsraad Standing every Council", 
+    "+100% Agent recruitment speed"],
     "childs": 
       [
         {
-          "name": "Harkonnen Legacy",
-          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration",
-          "Ignore Corruption negative effects",
-          "10% chance every day to convert captured Agents"],
+          "name": "Cruel Reputation",
+          "perks": ["Using an operation on a faction in Conflict grants 25% of its Solari cost as Influence", 
+                    "Unlocks the Political Agreement Treaty"],
           "childs": 
           [
             {
-              "name": "Cruel Reputation",
-              "perks": ["Launching an operation on enemy units or Villages gives 10 Influence",
-              "Agents assigned on Spacing Guild Infiltration produce 0,1 Guild Favor",
-              "Unlocks the Political Agreement Treaty"],
-              "childs": 
-              [
-                {
-                  "name": "Sand Diplomancy",
-                  "perks": ["Agents assigned on Arrakis Infiltration produce 30% more Authority",
-                   "+30% relation gain with Sietch",
-                   "+30% received resources when trading with Sietch"]
-                }
-              ]
+              "name": "Counter Measures",
+              "perks": ["After every Council, 1 Landsraad Guard appear near Carthag per 100 Influence spent, up to 3",
+                      "+1 Agent slot in Counterintelligence"]
             },
             {
-                "name": "Political Stance",
+                "name": "Landsraad Whispers",
                 "perks": [
-                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council", 
-                    "Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
-                     "Unlocks Embassy Building in Carthag"
-                    ]
+                    "Agents assined on a Landsraad Information slot produce +100% Intel",
+                     "Unlocks the Embassy Building in Carthag", 
+                     "+1 Agent slot in Landsraad Information"
+                    ],
+                "childs": 
+                [
+                  {
+                    "name": "Insider Trading",
+                    "perks": ["+20% CHOAM Share selling price",
+                            "Selling CHOAM Shares grants 1 Influence per Share"]
+                  }
+                ]
               }
           ]
         },
         {
           "name": "Spying Logistic",
-          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Carthag"],
+          "perks": ["Allows the training of Assassin", "+200% Agent recruitment speed", "Unlocks the Intelligence Agency Building in Carthag"],
           "childs": 
           [
             {
-              "name": "Stealth Gear",
-              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
-              "-15% daily Supply drain in enemy territory",
-              "-50% spying mission Solari cost"],
+              "name": "Enhanced Questionning",
+              "perks": ["Oppressed Villages grant +1 Intel production",
+                        "Unlocks the Interrogation Center Buidling in Carthag"],
               "childs": 
               [
                 {
                   "name": "Spying Mastery",
-                  "perks": ["+3 Intel production per ally Sietch",
-                  "+5 max Agents",
-                  "Allows the training of Assassin"]
+                  "perks": ["-50% impact from number of Agents on the time to recruit a new one",
+                   "+5 max Agents"]
                 }
               ]
             },
             {
-                "name": "Counter Measures",
-                "perks": ["+150% Agent recruitment speed",
-                        "Detect units with Camouflage from 50% further away", 
-                        "Unlocks 1 Agent slot in Counterintelligence"]
+                "name": "Nefarious Contacts",
+                "perks": ["-50% Assassin recruitment costs",
+                        "+1 max Infiltration Cells in each factions's territory"]
             }
           ]
         }

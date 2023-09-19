@@ -1,61 +1,60 @@
 [{
     "name": "Intelligence Network",
-    "description": "Agents assigned on CHOAM Infiltration produce 100% more Solari; Agents assigned on Landsraad Infiltration produce 100% more Influence",
-    "perks": ["Agents assigned on CHOAM Infiltration produce 100% more Solari", "Agents assigned on Landsraad Infiltration produce 100% more Influence"],
+    "perks": ["Getting the chosen result on at least one resolution grants 10 Landsraad Standing every Council", 
+    "+100% Agent recruitment speed"],
     "childs": 
       [
         {
           "name": "Diplomatic Maneuvers",
-          "perks": ["Unlocks 1 Agent slot in Landsraad Infiltration", 
-                    "Agents assigend on a faction in Truce produce 10 Solari", 
-                    "Unlocks the Political Agreement Treaty"],
+          "perks": ["Minor Houses deliver a House Gift near Foliage after every Council", 
+                    "Unlocks the Political Agreement Treaty", 
+                    "Unlocks the Embassy Building in Foliage"],
           "childs": 
           [
             {
-              "name": "Negotiation Tactics",
-              "perks": ["Minor Houses deliver Dump Box near Imperial Base after every Landsraad Council",
-                        "Agents assigend on Spacing Guild Infiltration proudce 0,1 Guild Favor",
-                        "10% CHAOM Share dividents per agent assigend to CHOAM Infiltration"],
-              "childs": 
-              [
-                {
-                  "name": "Emperor Eyes",
-                  "perks": ["Fills 3 Counterintelligence slots with unmoveable Emperor Eye Agents", "Agents assigned on opposing factions produce +5 Intel"]
-                }
-              ]
+              "name": "Counter Measures",
+              "perks": ["After every Council, 1 Landsraad Guard appear near Foliage per 100 Influence spent, up to 3",
+                      "+1 Agent slot in Counterintelligence"]
             },
             {
-                "name": "Political Stance",
+                "name": "Landsraad Support",
                 "perks": [
-                    "3 Landsraad Guards appear near Imperial Base after every Landsraad Council Each Treaty contracted with another faction grants a production bonus of +10% in ints associated ressource",
-                     "Unlocks Embassy Building in Imperial Base"
-                    ]
+                    "+50 max Influence per Agent assigned to a Landsraad Information slot",
+                     "+1 Agent slot in Landsraad Information"
+                    ],
+                "childs": 
+                [
+                  {
+                    "name": "Political Art",
+                    "perks": ["Gain 30 Influence upon building a Masterpiece",
+                            "Any Charter currently claimed by House Ecaz cannot be proposed to vote"]
+                  }
+                ]
               }
           ]
         },
         {
           "name": "Spying Logistic",
-          "perks": ["150% Agent recruitment speed", "+15% Intel production", "Unlocks the Intelligence Agency Building in Imperial Base"],
+          "perks": ["Allows the training of Assassin", "+200% Agent recruitment speed", "Unlocks the Intelligence Agency Building in Foliage"],
           "childs": 
           [
             {
               "name": "Stealth Gear",
-              "perks": ["Reduces the daily chance of Agent capture when assigned on a faction",
-                        "-15% daily Supply drain in enemy territory",
-                        "-50%spying mission Solari cost"],
+              "perks": ["20% of an operation's Intel cost is refund when launched in the territory of a faction in Conflict",
+                        "Enemies have -50% chance to detect missions"],
               "childs": 
               [
                 {
-                  "name": "Spying Mastery",
-                  "perks": ["+3 Intel production per ally Sietch", "+5 max Agents", "Allows the training of Assassin"]
+                  "name": "Influential Plots",
+                  "perks": ["When out of Intel, Influence is used in its stead for mission preparation, assassination upkeep and Assassin recruitment",
+                   "+1 max Infiltration Cells in each faction's territory"]
                 }
               ]
             },
             {
-                "name": "Outrageous Wealth",
-                "perks": ["+5% unit Power per faction with less CHOAM Shares",
-                        "+2 Influence production per faction with less CHOAM Shares", 
-                        "Unlocks the Emperor Monument Building in Imperial Base"]
+                "name": "Cosmopolite Elegance",
+                "perks": ["Information levels rise and fall 50% faster",
+                        "Agents on fields at max Infomration level produce +50% of every resources"]
             }
           ]
         }
