@@ -1,59 +1,49 @@
 [{
     "name": "Composite Materials",
-    "perks": ["+15% Plascrate production", "+25% Village Buildings construction speed"],
+    "perks": ["+10 Plascrete production", "Unlocks the Maintenance Center Village Building"],
     "childs": 
       [
         {
-          "name": "Advanced Engineering",
-          "perks": ["+5% Ressource Production in Villages per Building on extra Slot", "Unlocks Spice Silos Village Building"],
+          "name": "Arrakis Secrets",
+          "perks": ["Reveals the position of all Spice Fields", "Unlocks the Spice Silos Village Buidling", 
+          "Unlocks the Al-Gaib Temple Building in Sietch Tabr"],
           "childs": 
           [
               {
-                "name": "Spreading the Faith",
-                "perks": ["+2 Solari production per neutral Village in the world", 
-                "Liberating a Village grants 20% of its Pillage rewards",
-                "200% of Authority net production is produced as Solari"]
+                "name": "CHOAM Integration",
+                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Foliage", "+1 Agent slot in CHOAM Information"],
+                "childs": 
+                [
+                  {
+                    "name": "Crew Training Program",
+                    "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                  },
+                    {
+                      "name": "CHOAM Support",
+                      "perks": ["-15% CHOAM Share Buying Price", "+0,1 Spice exchange rate per 5% CHOAM Share"]
+                    }
+                ]
               }
           ]
         },
         {
-          "name": "Spice Market",
-          "perks": ["+1 maximum assignable Crew in Harvesting Teams",
-          "Reveals the position of all Spice Fields",
+          "name": "Freedom Fighters",
+          "perks": ["+0,5 Solari production per existing neutral or Fremen Village", "+500 Solari when liberating a Village", 
           "Unlocks the Trade Agreement Treaty"],
           "childs": 
           [
             {
-              "name": "Arrakis Secrets",
-              "perks": ["1+ Crew assignable in Harvesting Teams", 
-              "+5% Spice production per exploited Spice Field",
-              "Reduces the negative effects of Sandstorms by 50%"],
-              "childs": 
-              [
-                {
-                  "name": "Spice Hegemony",
-                  "perks": ["+2% Spice gathering rate per allied Sietch",
-                  "+20% resource production in controlled Villages in the region of an ally Sietch",
-                  "+1 Maximum Building slots in controlled Villages in the Region of an ally Sietch"]
-                }
-              ]
+              "name": "Sand Brotherhood",
+              "perks": ["+1% Solari production per ally Sietch", "+10% resource production in the region of an ally Sietch and its neighbors", 
+              "Unlocks the Bazaar Building in Sietch Tabr"]
             },
             {
-              "name": "Economic Lobbying",
-              "perks": ["Allows the training of Mercenary", "Unlocks 1 Agent Slot in Choam Infiltration", "Unlocks the Choam Branch Building in Sietch Tabr"],
-              "childs":               
-              [
-                {
-                  "name": "CHOAM Support",
-                  "perks": ["-15% CHOAM Share Buying Price", "+35% Solari from CHOAM Share dividends"]
-                },
-                {
-                  "name": "Riches of Arrakis",
-                  "perks": ["+20 Solari production per controlled Special Region", 
-                  "+2% total Solari production per controlled Special Region",
-                  "+20% Village resource production in Special Regions"]
-                }
-              ]
+              "name": "Shared Transcendence",
+              "perks": ["Ceremonial Caves produce +10 Solari", "Ceremonial Caves produce +1 Knowledge"]
+            },
+            {
+              "name": "Riches of Arrakis",
+              "perks": ["+10 Solari production per controlled Special Region", "+1% total Solari production per controlled Special Region"]
             }
           ]
         }

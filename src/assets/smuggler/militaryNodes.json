@@ -1,57 +1,54 @@
 [{
     "name": "Survival Training",
-    "perks": ["+30% max Supply", "Unlocks the Military Base Village Building", "Unlocks Sniper Unit"],
+    "perks": ["Unlocks the Armory to customize units equipement", "Unlocks the Military Base Village Building"],
     "childs": 
       [
         {
-          "name": "Guerrillia Tactics",
-          "perks": ["At night, Military Units gain +20% Power", "+2 Armor",
-          "+20% Militia Power", "Unlocks the Command Post Building in Sietch Tuek"]
+          "name": "Guerrilla Tactics",
+          "perks": ["At night, Military Units gain: ", "+30% Power", "+30% Speed", "Unlock the second gear slot in Armory", 
+          "Unlocks the Barracks Building in Sietch Tuek"]
         },
         {
           "name": "Organized Looting",
-          "perks": ["+50% resources from pillaging Villages with an Underworld Headquarters", 
-                  "Military Units gain +5 Solari production while attacking an enemy Main Base",
-                  "Unlocks the Scavenging Drone unit"],
+          "perks": ["+30% resources from pillaging Villages and Sietches", "Unlocks the Scavenging Drone unit"],
           "childs": 
           [
             {
-              "name": "Military Threat",
-              "perks": ["1% of Military Units' total Power is produced as Influence",
-              "-10% daily Supply train",
-              "Unlocks the Tribute diplomatic action"],
+              "name": "Energy Efficiency",
+              "perks": ["+50% Fuel Cell", 
+                      "-1 mechanical units Fuel Cell Requirement"],
               "childs": 
               [
                 {
-                  "name": "Air Command",
-                  "perks": ["+4 Command Point", 
-                          "+20% Health for flying units",
-                          "+20% range for Missile Batteries, Airfields and Sietch Tuek"]
+                  "name": "Parts Production",
+                  "perks": ["+20% mechanical units Health", 
+                          "+50% mechanical units regeneration speed",
+                          "-30% mechanical units regeneration costs"]
                 }
               ]
             }
           ]
         },
         {
-          "name": "Army Logistics",
-          "perks": ["Gain 30 Plascrete by pillaging a Village", "+30% resources from pillaging a Village", 
-          "Ground Military Units occupying a Village gain +30% Health regenaration per day outside combat"],
+            "name": "Recruitment Initiative",
+            "perks": ["+5 Command Point", "+20% Manpower production", "Unlocks the Command Post Building in Sietch Tuek"],
             "childs": 
             [
               {
-                "name": "Call to Arms",
-                "perks": ["+20% Manpower production", "-20% Military Unit Solari recruitment cost", "Unlocks the Free Company unit"],
+                "name": "Parallel Training",
+                "perks": ["+2 Training Slot", "Unlocks the Military Academy Building in Sietch Tuek", "+1 Agent slot in Spacing Guild Information"],
                 "childs": 
                 [
                   {
-                    "name": "High Command",
-                    "perks": ["-20% Warden Free Company upkeep", "+4 Command Point", "+1 Armor for all Military Units"]
+                    "name": "Synchronized Heist",
+                    "perks": ["+10 Command Point", "On completing a siege units in the occupation circle gain +20% Speed for 1 day", 
+                    "When at least 2 sieges are under way against the same faction Pillage progress 100% faster"]
+                  },
+                  {
+                    "name": "Siege Incentives",
+                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
-              },
-              {
-                "name": "Ground Command",
-                "perks": ["+4 Command Point", "-30% Military Unit Solari Upkeep", "Unlocks the Recruitment Center Building in Sietch Tuek"]
               }
             ]
           }

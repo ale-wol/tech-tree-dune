@@ -1,58 +1,49 @@
 [{
     "name": "Local Dialect Studies",
-    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building"],
+    "perks": ["-15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
     "childs": 
       [
         {
-          "name": "Paracompass",
-          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+          "name": "Heir of Arrakis",
+          "perks": ["+20% Authority production per controlled Deep deserrt", "Controlled Deep deserts grant neighboring Villages:" , 
+          "+2 instances of the Village's traits", "+20% Militia Power"]
         },
         {
-          "name": "Sand Brotherhood",
-          "perks": ["+15% Authority production per controlled Deep desert",
-          "-25% Water Upkeep on Villages", 
-          "Unlocks the Recycling Vats Building in Sietch Tabr"],
+          "name": "Desert Wisdom",
+          "perks": ["Windtraps produce +0,1 Knowledge per level of wind strength in the Region", 
+          "Unlocks the Research Agreement Treaty", "Unlocks the Mason Guild Building in Sietch Tabr"],
           "childs": 
           [
             {
-              "name": "Dune Wanderers",
-              "perks": ["-30% Military Unit Water Upkeep",
-              "Ground Military Units in Deep desert gain Only visible from close range",
-              "-30% daily Supply drain Speed not reduced by Deep deserts",
-              "Agents assigned on Arrakis Infiltration produce 0,1 Machine Scraps"]
+              "name": "Desert Watchers",
+              "perks": ["+1 Militia Slot", "+50 Militia Health per neutral neighboring Village", "Unlocks the Investment Office Village Building"],
+              "childs": 
+              [
+                {
+                  "name": "Border Defense",
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                }
+              ]
             }
           ]
         },
         {
-            "name": "Natives Knowledge",
-            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "name": "Native Customs",
+            "perks": ["-20% Authority from Agents on a Arrakis Information slot", "-30% Authority cost to Annex a Village in a Region with a revealed Sietch"],
             "childs": 
             [
               {
-                "name": "Heir of Arrakis",
-                "perks": ["Increase time to Annex and Liberate Fremen Villages by 20%",
-                "+1 Authority production per occupied enemy Village (x5 max)",
-                "Unlocks the Research Agreement Treaty"],
-                "childs": 
-                [
-                  {
-                    "name": "Lay of the Land",
-                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
-                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
-                            "+30% Militia Health"]
-                  }
-                ]
+                "name": "Outpost Logistices",
+                "perks": ["Owned Villages Authority penalty to Annex a Villae is reduced by 30%", "+1 Agent slot in Arrakis Information"]
               },
               {
-                "name": "Outpost Logistics",
-                "perks": ["Owned Villages Authority penalty to Annex a new Village is reduced by 30%", 
-                        "-10% Upkeep on Villages", 
-                        "Unlocks the Investment Office Village Building"],
+                "name": "Valuable Trinkets",
+                "perks": ["+100% resources received from trading with an allied Sietch", "Unlocks the Crafts Workshop Village Building"],
                 "childs": 
                 [
                   {
-                    "name": "Border Defense",
-                    "perks": ["+1 Militia Slot", "+20% Missile Battery Power", "Unlocks Heavy Militia"]
+                    "name": "Wonders of the Desert",
+                    "perks": ["+30% resource production in Special Regions", "No penalty Authrotiy cost to Annex a Village in a Special Region"]
                   }
                 ]
               }
@@ -60,3 +51,4 @@
         }
       ]
 }]
+

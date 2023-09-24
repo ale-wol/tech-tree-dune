@@ -1,55 +1,48 @@
 [{
-    "name": "Local Dialect Studies",
-    "perks": ["-15% Authority cost to Annex a Village", "Unlocks the Crafts Workshop Village Building"],
+    "name": "Criminal Barons",
+    "perks": ["-15% Underworld Headquarters installation cost", "+0,5 Water per Underworld Headquarters"],
     "childs": 
       [
         {
-          "name": "Paracompass",
-          "perks": ["-30% daily Supply drain", "+30% flying unit Speed", "+30% ground Military Unit Discovery investigation speed"]
+          "name": "Lay of the Land",
+          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
-          "name": "Water Sellers Contacts",
-          "perks": ["-20% Military Unit Water Upkeep", "-20% Water Upkeep on Villages", "Unlocks the Water Extractor Building in the Polar Sink Village"],
+          "name": "Underground Network",
+          "perks": ["Smuggler Villages produce +5 Solari per Underworld Headquarter in adjacent regions", "Unlocks the Black Market Branch Building in Sietch Tuek"],
           "childs": 
           [
             {
-              "name": "Water Trade",
-              "perks": ["+1 Solari per positive Water", "+100% Health on Windtrap", "Unlocks the Recycling Vats Building in Sietch Tuek"]
+              "name": "Civilian Defense Force",
+              "perks": ["+1 Militia Slot", "+150 Militia Health", "-50% Airfield Upkeep"],
+              "childs": 
+              [
+                {
+                  "name": "Border Defense",
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                }
+              ]
             }
           ]
         },
         {
-            "name": "Natives Knowledge",
-            "perks": ["-30% Sandworm attraction speed", "Unlocks the Decoy Thumper spying mission"],
+            "name": "Native Customs",
+            "perks": ["-20% Authority from Agents on a Arrakis Information slot", "-30% Authority cost to Annex a Village in a Region with a revealed Sietch"],
             "childs": 
             [
               {
-                "name": "Local Hubs",
-                "perks": ["+0,25 Knowledge per controlled Village", 
-                        "-15% Village Buildings construction costs", 
-                        "Unlocks the Research Agreement Treaty"],
-                "childs": 
-                [
-                  {
-                    "name": "Lay of the Land",
-                    "perks": ["Unlocks 1 Agend slot in Arrakis Infiltration", 
-                            "Agents assigned on Arrakis Infiltration produce 30% more Authority", 
-                            "+30% Militia Health"]
-                  }
-                ]
+                "name": "Illicit Methods",
+                "perks": ["Ignore the cost penalty to Annex pillaged Villages", "Unlicks the Investment Office Village Building",
+                  "+1 Agent slot in Arrakis Information"]
               },
               {
-                "name": "Underground Network",
-                "perks": ["Distance based Authority cost to Annex a Village are reduced by 40%", 
-                        "+6 Solari production for each Village neighboring enemy territory", 
-                        "Unlocks the Investment Office Village Building"],
+                "name": "Valuable Trinkets",
+                "perks": ["+100% resources received from trading with an allied Sietch", "Unlocks the Crafts Workshop Village Building"],
                 "childs": 
                 [
                   {
-                    "name": "Illicit Methods",
-                    "perks": ["Regain 20% Supply after participating in a kill", 
-                    "Ignore the cost penalty to Annex pillaged Villages",
-                    "Missile Battery deals damage to enemy Supply"]
+                    "name": "Wonders of the Desert",
+                    "perks": ["+30% resource production in Special Regions", "No penalty Authrotiy cost to Annex a Village in a Special Region"]
                   }
                 ]
               }
@@ -57,3 +50,4 @@
         }
       ]
 }]
+
