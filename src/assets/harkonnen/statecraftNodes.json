@@ -18,8 +18,8 @@
             {
                 "name": "Landsraad Whispers",
                 "perks": [
-                    "Agents assined on a Landsraad Information slot produce +100% Intel",
-                     "Unlocks the Embassy Building in Carthag", 
+                    "Agents assined on a Landsraad Information slot produce +2 Intel",
+                     "Unlocks the Landsraad Quarters Building in Carthag", 
                      "+1 Agent slot in Landsraad Information"
                     ],
                 "childs": 

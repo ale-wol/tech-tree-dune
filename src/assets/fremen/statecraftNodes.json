@@ -1,12 +1,12 @@
 [{
     "name": "Fremen Solidarity",
-    "perks": ["Immediatly gain 60 relation with all Sietches", "+100% recruitment speed"],
+    "perks": ["Immediatly gain 60 relation with all Sietches", "+100% Agent recruitment speed"],
     "childs": 
       [
         {
           "name": "Sand Diplomats",
-          "perks": ["Each allied Sietch grants +50% max Influence", "Unlocks the Political Agreement Treaty", 
-          "Unlocks the Embassy Building in Sietch Tabr"],
+          "perks": ["Each allied Sietch grants 1 Influence production", "Unlocks the Political Agreement Treaty", 
+          "Unlocks the Al-Gaib Temple in Sietch Tabr"],
           "childs": 
           [
             {

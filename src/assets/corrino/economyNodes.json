@@ -16,7 +16,7 @@
                 [
                     {
                       "name": "Crew Training Program",
-                      "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                      "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production"]
                     },
                     {
                       "name": "CHOAM Manipulation",
@@ -28,22 +28,22 @@
         },
         {
           "name": "Advanced Engineering",
-          "perks": ["Each Village produces +3% resource per Building constructed", "Unlocks the Mason Guild in Imperial Base",
+          "perks": ["Each Village produces +2% resource per Building constructed", "Unlocks the Mason Guild in Imperial Base",
            "Unlocks the Trade Agreement Treaty"],
           "childs": 
           [
             {
-              "name": "Filtration Systems",
-              "perks": ["+0,2 Spice production per positive Water", "Unlocks the Wintrap Village Building"]
+              "name": "Integrated Costs",
+              "perks": ["Ally Villages neighboring Imperial Base get:", 
+              "+10 Solari production", "-50% Major Building Solari upkeeps"]
             },
             {
               "name": "Geothermal Condensers",
               "perks": ["Fuel cell Factories produce +10 Solari", "Fuel cell Factories produce +5 Water", "+10% resource production in vallages with Fuel Cell Factory"]
             },
             {
-              "name": "Integrated Costs",
-              "perks": ["Ally Villages neighboring Imperial Base get:", 
-              "+10 Solari production", "-50% Major Building Solari upkeeps"]
+              "name": "Riches of Arrakis",
+              "perks": ["+10 Solari production per controlled Special Region" , "+2% total Solari production per controlled Special Region"]
             }
           ]
         }

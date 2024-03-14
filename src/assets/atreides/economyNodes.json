@@ -6,19 +6,18 @@
       [
         {
           "name": "Modular Parts",
-          "perks": ["+1 maximum Crew in Harvesters", "Unlocks the Spice Silos Village Building", "Unlocks the Harvester Works Building in Foliage"],
+          "perks": ["+1 maximum Crew in Harvesters", "Unlocks the Spice Silos Village Building", "Unlocks the Harvester Works Building in Arrakeen"],
           "childs": 
           [
               {
                 "name": "CHOAM Integration",
-                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Foliage", "+1 Agent slot in CHOAM Information"],
+                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Arrakeen", "+1 Agent slot in CHOAM Information"],
                 "childs": 
                 [
                     {
                       "name": "Atreides Foremen",
                       "perks": ["+2 maximum Crew in Harvesters", 
-                      "After successfully paying the Imperial Tax, every Harvesters with full crew gains +10% gathering rate permanently (x5 max)",
-                       "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                      "After successfully paying the Imperial Tax, every Harvesters with full crew gains +15% gathering rate permanently (x3 max)"]
                     },
                     {
                       "name": "CHOAM Support",
@@ -35,8 +34,9 @@
           "childs": 
           [
             {
-              "name": "Filtration Systems",
-              "perks": ["+0,2 Spice production per positive Water", "Unlocks the Wintrap Village Building"]
+              "name": "Insulated Valley",
+              "perks": ["Controlled Village in regions with at most 2 Wind Strenght gain: ", 
+                        "-30% Buildings Solari Upkeep", "Buildings require -1 Water"]
             },
             {
               "name": "Geothermal Condensers",
@@ -44,7 +44,7 @@
             },
             {
               "name": "Riches of Arrakis",
-              "perks": ["+10 Solari production per controlled Special Region", "+1% total Solari production per controlled Special Region"]
+              "perks": ["+10 Solari production per controlled Special Region", "+2% total Solari production per controlled Special Region"]
             }
           ]
         }

@@ -5,18 +5,19 @@
       [
         {
           "name": "Army Logistics",
-          "perks": ["Military Units gain +1 Armor", "Unlocks the Barracks Building in Foliage"]
+          "perks": ["+10 Water" , "Unlock the second gear slot in the Armory"]
         },
         {
           "name": "National Mythos",
           "perks": ["Unlocks the War Banner unit" , 
-          "Ecazi units in a large area around the Champion get +10% Power"],
+          "-10% damage received by Ecazi units in a large area around the Champion"],
           "childs": 
           [
             {
               "name": "Inspiring Standard",
               "perks": ["War Banners produce 2 Manpower", 
-                      "Non-mechanical units in the same region as at least 1 War Banner regenerate Health 100% faster"],
+                      "Non-mechanical units in the same region as at least 1 War Banner regenerate Health 100% faster",
+                      "Unlocks the Fusion Plant Building in Foliage"],
               "childs": 
               [
                 {
@@ -31,23 +32,25 @@
         },
         {
             "name": "Martial Perfectionism",
-            "perks": ["Unlocks the Military Academy Building in Foliage", "+5 Command Point", "Can choose to pay +50% of the price to recruit units in +100% of the time, giving them permanently:" 
+            "perks": ["Unlocks the Military Academy Building in Foliage", "+5 Command Point", 
+            "Can choose to pay +50% of the price to recruit units in +100% of the time, giving them permanently:" 
             , "+20% Health", "+20% Power"],
             "childs": 
             [
               {
                 "name": "Logistical Flourish",
-                "perks": ["Unlock the second gear slot in the Armory", "Unlocks the Command Post Building in Foliage",
-                "+1 Agent slot in Spacing Guild Information"],
+                "perks": ["When a Champion dies, get +50% units recruitment speed for 10 days" , 
+                          "Unlocks the Command Post Building in Foliage",
+                          "+1 Agent slot in Spacing Guild Information"],
                 "childs": 
                 [
                   {
                     "name": "Military Propaganda",
-                    "perks": ["+10 Command Point", "+3 Authority production if no other faction use more Command Point"]
+                    "perks": ["+10 Command Point", "+20% Authority production if no other factions use more Command Point"]
                   },
                   {
                     "name": "Siege Incentives",
-                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
+                    "perks": ["Military units deal +50% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
               }

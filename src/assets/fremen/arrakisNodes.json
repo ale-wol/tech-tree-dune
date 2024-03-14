@@ -6,7 +6,7 @@
         {
           "name": "Heir of Arrakis",
           "perks": ["+20% Authority production per controlled Deep deserrt", "Controlled Deep deserts grant neighboring Villages:" , 
-          "+2 instances of the Village's traits", "+20% Militia Power"]
+          "+2 instances of the Village's traits", "+20% Militia Power", "Unlocks the Investment Office Village Building"]
         },
         {
           "name": "Desert Wisdom",
@@ -16,12 +16,12 @@
           [
             {
               "name": "Desert Watchers",
-              "perks": ["+1 Militia Slot", "+50 Militia Health per neutral neighboring Village", "Unlocks the Investment Office Village Building"],
+              "perks": ["+1 Militia Slot", "+50 Militia Health per neutral neighboring Village", "Ally units in Fremen territory have Stealth"],
               "childs": 
               [
                 {
                   "name": "Border Defense",
-                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
                 }
               ]
             }

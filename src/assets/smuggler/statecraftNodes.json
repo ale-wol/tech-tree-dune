@@ -8,12 +8,12 @@
           "name": "Diplomatic Maneuvers",
           "perks": ["Minor Houses deliver a House Gift near Sietch Tuek after every Council", 
                     "Unlocks the Political Agreement Treaty", 
-                    "Unlocks the Embassy Building in Sietch Tuek"],
+                    "Unlocks the Landsraad Quarters Building in Sietch Tuek"],
           "childs": 
           [
             {
               "name": "Security Details",
-              "perks": ["3 free Mercenary appears near Sietch Tuek after any resolution marked by a Bounty passes", "+1 Agent slot in Counterintelligence"]
+              "perks": ["Receive 4 free Mercenary appears near Sietch Tuek after any resolution marked by a Bounty passes", "+1 Agent slot in Counterintelligence"]
             },
             {
                 "name": "Underworld Bribes",

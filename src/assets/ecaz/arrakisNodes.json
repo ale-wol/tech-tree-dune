@@ -5,7 +5,7 @@
       [
         {
           "name": "Lay of the Land",
-          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
+          "perks": ["+0,5 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
           "name": "Manichean Propaganda",
@@ -20,7 +20,7 @@
               [
                 {
                   "name": "Border Defense",
-                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
                 }
               ]
             }
@@ -28,7 +28,7 @@
         },
         {
             "name": "Native Artists",
-            "perks": ["Masterpieces increase relation with Sietches in the same region", "Unlocks the Investment Office Village Building", 
+            "perks": ["Masterpieces increase relation with Sietches in the same region", 
             "Unlocks the Museum of Unbound Arts Building"],
             "childs": 
             [

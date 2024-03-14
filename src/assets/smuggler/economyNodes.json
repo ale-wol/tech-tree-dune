@@ -16,8 +16,7 @@
                     {
                       "name": "Underworld Contacts",
                       "perks": ["+2 maximum Crew in Harvesters", 
-                      "Underworld Headquarters produce 20% of their Village's Spice production", "Unlocks Contraband Supply special events",
-                       "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                      "Underworld Headquarters produce 20% of their Village's Spice production", "Unlocks Contraband Supply special events"]
                     },
                     {
                       "name": "CHOAM Support",
@@ -34,8 +33,9 @@
           "childs": 
           [
             {
-              "name": "Filtration Systems",
-              "perks": ["+0,2 Spice production per positive Water", "Unlocks the Wintrap Village Building"]
+              "name": "Insulated Valley",
+              "perks": ["Controlled Village in regions with at most 2 Wind Strenght gain: ", 
+                        "-30% Buildings Solari Upkeep", "Buildings require -1 Water"]
             },
             {
               "name": "Geothermal Condensers",
@@ -43,7 +43,7 @@
             },
             {
               "name": "Riches of Arrakis",
-              "perks": ["+10 Solari production per controlled Special Region", "+1% total Solari production per controlled Special Region"]
+              "perks": ["+10 Solari production per controlled Special Region", "+2% total Solari production per controlled Special Region"]
             }
           ]
         }

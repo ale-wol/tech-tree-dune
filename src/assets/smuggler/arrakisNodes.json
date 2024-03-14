@@ -5,7 +5,7 @@
       [
         {
           "name": "Lay of the Land",
-          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
+          "perks": ["+0,5 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
           "name": "Underground Network",
@@ -19,7 +19,7 @@
               [
                 {
                   "name": "Border Defense",
-                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
                 }
               ]
             }
@@ -32,7 +32,7 @@
             [
               {
                 "name": "Illicit Methods",
-                "perks": ["Ignore the cost penalty to Annex pillaged Villages", "Unlicks the Investment Office Village Building",
+                "perks": ["Ignore the cost penalty to Annex pillaged Villages", "Unlocks the Investment Office Village Building",
                   "+1 Agent slot in Arrakis Information"]
               },
               {

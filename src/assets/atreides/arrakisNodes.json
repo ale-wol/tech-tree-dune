@@ -5,7 +5,7 @@
       [
         {
           "name": "Lay of the Land",
-          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
+          "perks": ["+0,5 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
           "name": "Air Network",
@@ -14,13 +14,13 @@
           [
             {
               "name": "Veteran Militia",
-              "perks": ["-20% damage received by Military Units inside Atreides borders",
+              "perks": ["15% damage received by Military Units inside Atreides borders",
               "+100% Militia Health", "+50% Militia Power"],
               "childs": 
               [
                 {
                   "name": "Border Defense",
-                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
                 }
               ]
             }

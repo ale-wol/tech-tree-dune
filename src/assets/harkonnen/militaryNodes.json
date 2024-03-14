@@ -4,26 +4,25 @@
     "childs": 
       [
         {
-          "name": "Adrenaline Addiction",
-          "perks": ["Every time a unit dies, ally Military Units that are fighting nearby receive +1% Power (x10 max)", 
-          "Unlocks the Barracks Building in Carthag"]
+          "name": "Arrakis Butchers",
+          "perks": ["+10 Water", "+50% damage against Militia and Rebel", "Gains 5 Manpower upon killing Militia and Rebel"]
         },
         {
           "name": "Mechanization",
-          "perks": ["Unlocks the second gear slot in the Armory" , 
-          "Unlocks the Stealth Probe unit"],
+          "perks": ["Unlocks the Fusion Plant Building in Carthag" , 
+          "Unlocks the Combat Probe unit"],
           "childs": 
           [
             {
               "name": "Energy Efficiency",
-              "perks": ["+50% Fuel Cell", 
+              "perks": ["+30% Fuel Cell", 
                       "-1 mechanical units Fuel Cell Requirement"],
               "childs": 
               [
                 {
                   "name": "Assembly Lines",
-                  "perks": ["-30% Stealth Probe an Harpy recruitment costs", 
-                          "-30% Stealth Probe and Harpy training time"]
+                  "perks": ["-30% Combat Probe an Harpy recruitment costs", 
+                          "-30% Combat Probe and Harpy training time"]
                 }
               ]
             }
@@ -31,7 +30,7 @@
         },
         {
             "name": "Recruitment Initiative",
-            "perks": ["+5 Command Point", "+20& Manpower production" 
+            "perks": ["+5 Command Point", "+20% Manpower production" 
             , "Unlocks the Command Post Building in Carthag"],
             "childs": 
             [
@@ -41,12 +40,13 @@
                 "childs": 
                 [
                   {
-                    "name": "Arrakis Butchers",
-                    "perks": ["+10 Command Point", "+100% damage against Militia and Rebel", "Gains 5 Manpower upon killing Militia and Rebel"]
+                    "name": "Adrenaline Addiction",
+                    "perks": ["+10 Command Point", "Every time a unit dies, ally Military Units that are fighting nearby receive +1% attack speed (x50 max)",
+                              "Unlock the second gear slot in the Armory"]
                   },
                   {
                     "name": "Siege Incentives",
-                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
+                    "perks": ["Military units deal +50% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
               }

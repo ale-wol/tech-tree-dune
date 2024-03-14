@@ -5,8 +5,7 @@
       [
         {
           "name": "Guerrilla Tactics",
-          "perks": ["At night, Military Units gain: ", "+30% Power", "+30% Speed", "Unlock the second gear slot in Armory", 
-          "Unlocks the Barracks Building in Sietch Tuek"]
+          "perks": ["+15 Water" ,"At night, Military Units gain: ", "Attacks deal +20% damage", "+20% Speed outside combat"]
         },
         {
           "name": "Organized Looting",
@@ -14,9 +13,9 @@
           "childs": 
           [
             {
-              "name": "Energy Efficiency",
-              "perks": ["+50% Fuel Cell", 
-                      "-1 mechanical units Fuel Cell Requirement"],
+              "name": "Industrial Scavenging",
+              "perks": ["Non-mechanical units in the same region as at least 1 Scavenging Drone consume -30% Solari upkeep", 
+                         "Unlock the second gear slotin the Armory", "Unlocks the Fusion Plant Building in Sietch Tuek"],
               "childs": 
               [
                 {
@@ -46,7 +45,7 @@
                   },
                   {
                     "name": "Siege Incentives",
-                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
+                    "perks": ["Military units deal +50% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
               }

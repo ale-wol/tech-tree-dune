@@ -6,17 +6,17 @@
         {
           "name": "Arrakis Secrets",
           "perks": ["Reveals the position of all Spice Fields", "Unlocks the Spice Silos Village Buidling", 
-          "Unlocks the Al-Gaib Temple Building in Sietch Tabr"],
+          "Deployed Harvesting Teams regain Health and Supply" , "When they pack up, Harvesting Teams leave combat immediatly and have Stealth for 1 day"],
           "childs": 
           [
               {
                 "name": "CHOAM Integration",
-                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Foliage", "+1 Agent slot in CHOAM Information"],
+                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in Sietch Tabr", "+1 Agent slot in CHOAM Information"],
                 "childs": 
                 [
                   {
                     "name": "Crew Training Program",
-                    "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                    "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production"]
                   },
                     {
                       "name": "CHOAM Support",
@@ -43,7 +43,7 @@
             },
             {
               "name": "Riches of Arrakis",
-              "perks": ["+10 Solari production per controlled Special Region", "+1% total Solari production per controlled Special Region"]
+              "perks": ["+10 Solari production per controlled Special Region", "+2% total Solari production per controlled Special Region"]
             }
           ]
         }

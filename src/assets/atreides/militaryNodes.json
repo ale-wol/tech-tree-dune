@@ -5,16 +5,16 @@
       [
         {
           "name": "Army Logistics",
-          "perks": ["Military Units gain +1 Armor", "Unlocks the Barracks Building in Arrakeen"]
+          "perks": ["+10 Water", "Unlock the second gear slot in the Armory"]
         },
         {
           "name": "Mechanization",
-          "perks": ["Unlock the second gear slot in the Armory", "Unlocks the Support Drone unit"],
+          "perks": ["Unlocks the Fusion Plant Building in Arrakeen", "Unlocks the Support Drone unit"],
           "childs": 
           [
             {
               "name": "Energy Efficiency",
-              "perks": ["+50% Fuel Cell", 
+              "perks": ["+30% Fuel Cell", 
                       "-1 mechanical units Fuel Cell Requirement"],
               "childs": 
               [
@@ -40,11 +40,11 @@
                 [
                   {
                     "name": "Military Propaganda",
-                    "perks": ["+10 Command Point", "+3 Authority production if no other faction use more Command Point"]
+                    "perks": ["+10 Command Point", "+20% Authority production if no other factions use more Command Point"]
                   },
                   {
                     "name": "Proud Liberator",
-                    "perks": ["Non-mechanical units get +1% max Health per 20 Landsraad Standing",
+                    "perks": ["Non-mechanical units get +2% max Health per 25 Landsraad Standing",
                      "Units Liberating or Annexing a Village from a faction with less Landsraad Standing heal 20% of Health"]
                   }
                 ]

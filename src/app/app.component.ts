@@ -48,6 +48,12 @@ export class AppComponent {
   ecazMilNodes: TechNode[] = [];
   ecazStaNodes: TechNode[] = [];
 
+  verniusEcoNodes: TechNode[] = [];
+  verniusArrNodes: TechNode[] = [];
+  verniusMilNodes: TechNode[] = [];
+  verniusStaNodes: TechNode[] = [];
+
+
   constructor(private nodeService: AddNodesService, private sharedService: SharedService, 
     private matIconRegistry: MatIconRegistry, private domSanitizer: DomSanitizer) {
 
@@ -132,6 +138,19 @@ export class AppComponent {
     );
     this.addJsonNodesToList("./assets/ecaz/statecraftNodes.json").then(
       data => (this.ecazStaNodes = data)
+    );
+
+    this.addJsonNodesToList("./assets/vernius/economyNodes.json").then(
+      data => (this.verniusEcoNodes = data)
+    );
+    this.addJsonNodesToList("./assets/vernius/arrakisNodes.json").then(
+      data => (this.verniusArrNodes = data)
+    );
+    this.addJsonNodesToList("./assets/vernius/militaryNodes.json").then(
+      data => (this.verniusMilNodes = data)
+    );
+    this.addJsonNodesToList("./assets/vernius/statecraftNodes.json").then(
+      data => (this.verniusStaNodes = data)
     );
   }
 

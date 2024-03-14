@@ -4,24 +4,23 @@
     "childs": 
       [
         {
-          "name": "Army Logistics",
-          "perks": ["Military Units gain +1 Armor", "Unlocks the Barracks Building in Sietch Tabr"]
+          "name": "Sky Gazing",
+          "perks": ["-20% damage from air units", "Unlocks the Support Mobile Turret unit"]
         },
         {
-          "name": "Mechanization",
-          "perks": ["Unlock the second gear slot in the Armory", "Unlocks the Support Mobile Turret unit"],
+          "name": "Desert Trekkers",
+          "perks": ["+10 Water" , "Ground units gain +20% Speed in neutral territory"],
           "childs": 
           [
             {
-              "name": "Desert Trekkers",
-              "perks": ["Ground Units gain +20% Speed in neutral territory", 
-              "During Liberation of an enemy Village neighboring allied Sietches send a supporting raid"],
+              "name": "Stalwart Alliance",
+              "perks": ["During Liberation of an enemy Village neigboring allied Sietches send a supporting raid", "Unlock the second gear slot in Armory"],
               "childs": 
               [
                 {
                   "name": "Iday Alkrab",
-                  "perks": ["Wormriding is +100% faster", "Wormriding is only visible from close range",
-                  "On exiting wormriding units gain +50% Power on next attack"]
+                  "perks": ["Wormriding is +100% faster", "Wormriding cannot be seen",
+                  "On exiting wormriding units inflict +10 damage on first attack and gain Stealth for a day"]
                 }
               ]
             }
@@ -39,11 +38,11 @@
                 [
                   {
                     "name": "Military Propaganda",
-                    "perks": ["+10 Command Point", "+3 Authority production if no other faction use more Command Point"]
+                    "perks": ["+10 Command Point", "20% Authority production if no other factions use more Command Point"]
                   },
                   {
                     "name": "Siege Incentives",
-                    "perks": ["Military units deal +100% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
+                    "perks": ["Military units deal +50% damage against Main Bases", "Military Units give 0,1 Solari per damage inflicted on a Main Base"]
                   }
                 ]
               }

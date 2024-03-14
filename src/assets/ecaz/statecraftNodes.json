@@ -8,7 +8,7 @@
           "name": "Diplomatic Maneuvers",
           "perks": ["Minor Houses deliver a House Gift near Foliage after every Council", 
                     "Unlocks the Political Agreement Treaty", 
-                    "Unlocks the Embassy Building in Foliage"],
+                    "Unlocks the Landsraad Quarters in Foliage"],
           "childs": 
           [
             {
@@ -26,7 +26,7 @@
                 [
                   {
                     "name": "Political Art",
-                    "perks": ["Gain 30 Influence upon building a Masterpiece",
+                    "perks": ["Gain 15 Influence upon building a Masterpiece",
                             "Any Charter currently claimed by House Ecaz cannot be proposed to vote"]
                   }
                 ]

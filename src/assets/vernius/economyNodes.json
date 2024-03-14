@@ -1,0 +1,52 @@
+[{
+    "name": "Composite Materials",
+    "perks": ["+10 Plascrete production", "Unlocks the Maintenance Center Village Building"],
+    "childs": 
+      [
+        {
+          "name": "Entropic Engineering",
+          "perks": ["Can spend up to 2 Fuel Cell in Combine Harvester Drones to increase their production", 
+                   "Unlocks the Spice Silos Village Building",
+                   "Unlocks the Spice Laboratory Building in S-Vault"],
+          "childs": 
+          [
+              {
+                "name": "CHOAM Integration",
+                "perks": ["See next period's Spice exchange rate in the Spice Report", "Unlocks the CHOAM branch Buidling in S-Vault", "+1 Agent slot in CHOAM Information"],
+                "childs": 
+                [
+                    {
+                      "name": "Spice Enlightenment",
+                      "perks": ["Can spend up to 4 Fuel Cells in Combine Harvester Drones to increase their production", 
+                      "+0,5% Spice production per Knowledge"]
+                    },
+                    {
+                      "name": "CHOAM Support",
+                      "perks": ["-15% CHOAM Share Buying Price", "+0,1 Spice exchange rate per 5% CHOAM Share"]
+                    }
+                ]
+              }
+          ]
+        },
+        {
+          "name": "Advanced Engineering",
+          "perks": ["Each Village produces +2% resource per Building constructed", "Unlocks the Mason Building in S-Vault", 
+          "Unlocks the Trade Agreement Treaty"],
+          "childs": 
+          [
+            {
+              "name": "Insulated Valley",
+              "perks": ["Controlled Village in regions with at most 2 Wind Strength gain:", "-30% Buildings Solari Upkeep", "Buildings require -1 Water"]
+            },
+            {
+              "name": "Geothermal Condensers",
+              "perks": ["Fuel cell Factories produce +10 Solari", "Fuel cell Factories produce +5 Water", "+10% resource production in villages with Fuel Cell Factory"]
+            },
+            {
+              "name": "Riches of Arrakis",
+              "perks": ["+10 Solari production per controlled Special Region", "+2% total Solari production per controlled Special Region"]
+            }
+          ]
+        }
+      ]
+}]

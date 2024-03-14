@@ -1,6 +1,6 @@
 [{
     "name": "Atreides Sympathizers",
-    "perks": ["+5 Landsraad Standing per Landsraad Information level, after every Council", 
+    "perks": ["+5 Landsraad Standing per Landsraad Information level, on Council opening", 
     "+2 Influence production"],
     "childs": 
       [
@@ -8,13 +8,13 @@
           "name": "Diplomatic Maneuvers",
           "perks": ["Minor Houses deliver a House Gift near Arrakeen after every Council", 
                     "Unlocks the Political Agreement Treaty", 
-                    "Unlocks the Embassy Building in Arrakeen"],
+                    "Unlocks the Landsraad Quarters in Arrakeen"],
           "childs": 
           [
             {
-              "name": "Counter Measures",
-              "perks": ["After every Council, 1 Landsraad Guard appear near Foliage per 100 Influence spent, up to 3",
-                      "+1 Agent slot in Counterintelligence"]
+              "name": "Political Entente",
+              "perks": ["When another faction betrays a Truce with House Atreides, receive 5 free Landsraad Guard", 
+                        "Unlocks the Council Chamber Building in Arrakeen"]
             },
             {
                 "name": "Landsraad Support",
@@ -35,13 +35,14 @@
         },
         {
           "name": "Spying Logistic",
-          "perks": ["Allows the training of Assassin", "+200% Agent recruitment speed", "Unlocks the Intelligence Agency Building in Foliage"],
+          "perks": ["Allows the training of Assassin", "+200% Agent recruitment speed", "Unlocks the Intelligence Agency Building in Arrakeen"],
           "childs": 
           [
             {
               "name": "Sustainable Spying",
               "perks": ["Agents assigned on CHOAM Information",
-                        "Landsraad Information, or Spacing Guild Information slot produce +100% of their associated resources"],
+                        "Landsraad Information, or Spacing Guild Information slots produce +100% of their associated resources",
+                        "Agent traits present only once on an Information field apply their effects twice"],
               "childs": 
               [
                 {
@@ -52,10 +53,9 @@
               ]
             },
             {
-                "name": "Small Council",
-                "perks": ["+1 Influence per Agent assigned to Counterintelligence",
-                        "+2 Intel per Agent assigned to Counterintelligence", 
-                        "Unlocks the Council Chamber Building in Arrakeen"]
+                "name": "Active Surveillance",
+                "perks": ["+1 Influence and Intel production per Agent assigned to Counterintelligence", 
+                          "+1 Agent slot in Counterintelligence"]
             }
           ]
         }

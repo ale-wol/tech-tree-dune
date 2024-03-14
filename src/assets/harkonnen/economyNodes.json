@@ -16,7 +16,7 @@
                 [
                     {
                       "name": "Crew Training Program",
-                      "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production", "Harvesters Set to auto-recall will also deploy automatically when danger"]
+                      "perks": ["+2 maximum Crew in Harvesters", "+20% Spice production"]
                     },
                     {
                       "name": "CHOAM Support",
@@ -28,13 +28,14 @@
         },
         {
           "name": "Advanced Engineering",
-          "perks": ["Each Village produces +3% resource per Building constructed", "Unlocks the Mason Guild in Carthag",
+          "perks": ["Each Village produces +2% resource per Building constructed", "Unlocks the Mason Guild in Carthag",
            "Unlocks the Trade Agreement Treaty"],
           "childs": 
           [
             {
-              "name": "Filtration Systems",
-              "perks": ["+0,2 Spice production per positive Water", "Unlocks the Wintrap Village Building"]
+              "name": "Insulated Valley",
+              "perks": ["Controlled Village in regions with at most 2 Wind Strenght gain: ", 
+                        "-30% Buildings Solari Upkeep", "Buildings require -1 Water"]
             },
             {
               "name": "Geothermal Condensers",

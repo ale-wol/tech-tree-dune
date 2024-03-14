@@ -42,4 +42,11 @@
       </mat-card>
     </mat-grid-tile>
   </div>
+  <div *ngIf="selectedFaction == 'Vernius'">
+    <mat-grid-tile *ngFor="let nodes of [verniusEcoNodes, verniusMilNodes, verniusStaNodes, verniusArrNodes]">
+      <mat-card>
+        <app-tech-tree [childs]="nodes"></app-tech-tree>
+      </mat-card>
+    </mat-grid-tile>
+  </div>
 </mat-grid-list>

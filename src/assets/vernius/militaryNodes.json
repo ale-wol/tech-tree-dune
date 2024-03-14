@@ -4,19 +4,17 @@
     "childs": 
       [
         {
-          "name": "Imperial Command",
-          "perks": ["Can use Airfields of factions in Truce", "No Supply drain in regions owned by factions in Truce", 
-          "Unlock the second gear slot in the Armory"]
+          "name": "Water Batteries",
+          "perks": ["When out of Fuel Cells, Water is used in its stead", "Unlock the second gear slot in the Armory"]
         },
         {
           "name": "Mechanization",
-          "perks": ["Unlocks the Fusion Plant Building in Imperial Base", 
-                    "Unlocks the Artillery Drone Unit"],
+          "perks": ["Unlocks the Fusion Plant Building in S-Vault", "Unlocks the Resonance Drone unit"],
           "childs": 
           [
             {
               "name": "Energy Efficiency",
-              "perks": ["+30% Fuel Cell", 
+              "perks": ["30% Fuel Cell", 
                       "-1 mechanical units Fuel Cell Requirement"],
               "childs": 
               [
@@ -31,19 +29,18 @@
           ]
         },
         {
-            "name": "Recruitment Initiative",
-            "perks": ["+5 Command Point", "+20% Manpower production" 
-            , "Unlocks the Command Post Building in Imperial Base"],
+            "name": "Guild Collaboration",
+            "perks": ["+5 Command Point", "Agents assigned on a Spacing Guild Information slot produce 2 Fuel Cell", "Unlocks the Command Post Building in S-Vault"],
             "childs": 
             [
               {
                 "name": "Parallel Training",
-                "perks": ["+2 Training Slot", "Unlocks the Military Academy Building in Imperial Base", "+1 Agent slot in Spacing Guild Information"],
+                "perks": ["+2 Training Slot", "Unlocks the Military Academy Building in S-Vault", "+1 Agent slot in Spacing Guild Information"],
                 "childs": 
                 [
                   {
-                    "name": "Imperial Protocols",
-                    "perks": ["+10 Command Point", "-20% damage received for Military Units regsion where Corrino has a numerical superiority"]
+                    "name": "Automated Manufacture",
+                    "perks": ["+10 Command Point", "+0,5 recruitment and regeneration speed of all units per Knowledge"]
                   },
                   {
                     "name": "Siege Incentives",

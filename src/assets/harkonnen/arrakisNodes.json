@@ -1,11 +1,11 @@
 [{
     "name": "Local Dialect Studies",
-    "perks": ["+15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
+    "perks": ["-15% Authority cost to Annex a Village", "+1 Water per controlled Village"],
     "childs": 
       [
         {
           "name": "Lay of the Land",
-          "perks": ["+0,25 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
+          "perks": ["+0,5 Knowledge per controlled Village", "Unlocks the Research Agreement Treaty"]
         },
         {
           "name": "Local Hubs",
@@ -20,7 +20,7 @@
               [
                 {
                   "name": "Border Defense",
-                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                  "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
                 }
               ]
             }

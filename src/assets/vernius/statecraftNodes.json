@@ -1,0 +1,60 @@
+[{
+    "name": "Technological Exchange",
+    "perks": ["Gain 5 Landsraad Standing on Council opening per active Truce", "+2 Knowledge per active Truce"],
+    "childs": 
+      [
+        {
+          "name": "Diplomatic Maneuvers",
+          "perks": ["Minor Houses deliver a House Gift near S-Vault after every Council", 
+                    "Unlocks the Political Agreement Treaty", 
+                    "Unlocks the Landsraad Quarters Building in S-Vault"],
+          "childs": 
+          [
+            {
+              "name": "Counter Measures",
+              "perks": ["After every Council, receive 1 Landsraad Guard per 100 Influence spent, up to 3", "+1 Agent slot in Counterintelligence"]
+            },
+            {
+                "name": "Landsraad Support",
+                "perks": [
+                    "+50 max Influence per Agent assigned to a Landsraad Information slot", "+1 Agent slot in Landsraad Information"],
+                "childs": 
+                [
+                  {
+                    "name": "Insider Trading",
+                    "perks": ["+20% CHOAM Share selling price",
+                            "Selling CHOAM Shares grants 1 Influence per Share"]
+                  }
+                ]
+              }
+          ]
+        },
+        {
+          "name": "Heretical Computing",
+          "perks": ["Unlock Analytical Machine Agents and get 1 for free",
+           "Unlocks the Harmless Gadget Treaty",
+           "Unlocks the Intelligence Agency Building in S-Vault"],
+          "childs": 
+          [
+            {
+              "name": "Stealth Gear",
+              "perks": ["20% of and operation's Intel cost is refund when launched in the territory of a faction in Conflict",
+                        "Enemies have -50% chance to detect missions"],
+              "childs": 
+              [
+                {
+                  "name": "Physical Wiring",
+                  "perks": ["Infiltration Cells neighboring a region connected to the Nodal Network do no count towards the maximum of Infiltration Cells",
+                        "Allows the training of Assassins"]
+                }
+              ]
+            },
+            {
+                "name": "Holistic Thinking",
+                "perks": ["+1 Knowledge per Information field with at least 1 Analytical Machine", 
+                          "Information increases by 1 level in factions that have accepted a Harmless Gadget"]
+            }
+          ]
+        }
+      ]
+}]

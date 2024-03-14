@@ -1,6 +1,6 @@
 [{
   "name": "Megalopolis",
-  "perks": ["Corrino Villages neigboring Imperial Base get +2 Water", "Unlocks the Investment Office Buidling"],
+  "perks": ["Corrino Villages neigboring Imperial Base get +3 Water", "Unlocks the Investment Office Buidling"],
   "childs": 
     [
       {
@@ -19,7 +19,7 @@
             [
               {
                 "name": "Border Defense",
-                "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+4 Militia Power"]
+                "perks": ["+1 Missile Battery limit", "+30% Missile Battery Power", "+2 Militia Armor"]
               }
             ]
           }
@@ -27,7 +27,7 @@
       },
       {
           "name": "Administrative Consolidation",
-          "perks": ["+1 instance of the Village's traits in ally Villages neighboring Imperial Bases", "Unlocks the Emperor Monument Building in Imperial Base"],
+          "perks": ["Effects of Village quirks are applied 1 more time in ally Villages neighboring Imperial Bases", "Unlocks the Emperor Monument Building in Imperial Base"],
           "childs": 
           [
             {
