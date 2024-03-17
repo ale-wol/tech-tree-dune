@@ -28,6 +28,7 @@
         },
         {
             "name": "Instill Fear",
+            "isFaction": true,
             "perks": ["-10% Authority cost to Annex pillaged Villages", 
             "-50% Authority cost to Annex again Village owned by Harkonnen in the past"],
             "childs": 
@@ -39,12 +40,14 @@
               },
               {
                 "name": "Savage Cleansing",
+                "isFaction": true,
                 "perks": ["Pillaging a Sietch gives 100 Authority and immediatly reaveals another Sietch", 
                 "A successful Pillage resupply +25% of max Supply of units in the occupation circle"],
                 "childs": 
                 [
                   {
                     "name": "Symbols of Authority",
+                    "isFaction": true,
                     "perks": ["Oppressed Special Regions grant +1 Authority production", "Unlocks the Crafts Workshop Village Buidling"]
                   }
                 ]

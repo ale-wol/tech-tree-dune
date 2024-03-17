@@ -9,12 +9,14 @@
         },
         {
           "name": "National Mythos",
+          "isFaction": true,
           "perks": ["Unlocks the War Banner unit" , 
           "-10% damage received by Ecazi units in a large area around the Champion"],
           "childs": 
           [
             {
               "name": "Inspiring Standard",
+              "isFaction": true,
               "perks": ["War Banners produce 2 Manpower", 
                       "Non-mechanical units in the same region as at least 1 War Banner regenerate Health 100% faster",
                       "Unlocks the Fusion Plant Building in Foliage"],
@@ -32,6 +34,7 @@
         },
         {
             "name": "Martial Perfectionism",
+            "isFaction": true,
             "perks": ["Unlocks the Military Academy Building in Foliage", "+5 Command Point", 
             "Can choose to pay +50% of the price to recruit units in +100% of the time, giving them permanently:" 
             , "+20% Health", "+20% Power"],
@@ -39,6 +42,7 @@
             [
               {
                 "name": "Logistical Flourish",
+                "isFaction": true,
                 "perks": ["When a Champion dies, get +50% units recruitment speed for 10 days" , 
                           "Unlocks the Command Post Building in Foliage",
                           "+1 Agent slot in Spacing Guild Information"],

@@ -27,6 +27,7 @@
         },
         {
           "name": "Artistic Aspirations",
+          "isFaction": true,
           "perks": ["Gain 100 Solari upon building a Masterpiece", "-50% cost to add a Building slot", "Unlocks the Mason Guild in Foliage"],
           "childs": 
           [
@@ -37,6 +38,7 @@
             },
             {
               "name": "Cultural Tourism",
+              "isFaction": true,
               "perks": ["Unlocks the Trade Agreement Treaty", "Each Sanctuary provides", "+10 Solari production", "+5 Water"]
             },
             {

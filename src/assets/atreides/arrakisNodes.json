@@ -9,11 +9,13 @@
         },
         {
           "name": "Air Network",
+          "isFaction": true,
           "perks": ["-70% Airfield construction costs", "-70% Airfield Upkeep", "Shuttles are +100% faster"],
           "childs": 
           [
             {
               "name": "Veteran Militia",
+              "isFaction": true,
               "perks": ["15% damage received by Military Units inside Atreides borders",
               "+100% Militia Health", "+50% Militia Power"],
               "childs": 
@@ -33,6 +35,7 @@
             [
               {
                 "name": "Cultural Assimilation",
+                "isFaction": true,
                 "perks": ["-20% Authority and Influence cost to use Peaceful Annexation", "Unlocks the Concord Chamber Village Building",
                   "+1 Agent slot in Arrakis Information"]
               },

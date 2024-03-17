@@ -1,14 +1,17 @@
 [{
   "name": "Megalopolis",
+  "isFaction": true,
   "perks": ["Corrino Villages neigboring Imperial Base get +3 Water", "Unlocks the Investment Office Buidling"],
   "childs": 
     [
       {
         "name": "Imperial Researchers",
+        "isFaction": true,
         "perks": ["+1 Knowledge per completed district", "Unlocks the Research Agreement Treaty"]
       },
       {
         "name": "Imperial Administration",
+        "isFaction": true,
         "perks": ["+10% resource production in ally Villages with 4 or more Buildings of the same type", "Unlocks the Maintenance Center Village Building"],
         "childs": 
         [
@@ -27,6 +30,7 @@
       },
       {
           "name": "Administrative Consolidation",
+          "isFaction": true,
           "perks": ["Effects of Village quirks are applied 1 more time in ally Villages neighboring Imperial Bases", "Unlocks the Emperor Monument Building in Imperial Base"],
           "childs": 
           [

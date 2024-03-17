@@ -1,5 +1,6 @@
 [{
     "name": "Foot In the Door",
+    "isFaction": true,
     "perks": ["-20% Underworld Headquarters installation cost withing territories of factions in Truce",
     "1 Influence and Intel production per faction hosting at least one Underworld Headquarters", "+100% Agent recruitment speed"],
     "childs": 
@@ -13,10 +14,12 @@
           [
             {
               "name": "Security Details",
+              "isFaction": true,
               "perks": ["Receive 4 free Mercenary appears near Sietch Tuek after any resolution marked by a Bounty passes", "+1 Agent slot in Counterintelligence"]
             },
             {
                 "name": "Underworld Bribes",
+                "isFaction": true,
                 "perks": [
                     "+15 Landsraad Standing upon successfully paying the Guild Fees", 
                     "Resoulutions marked by a Bounty receives 1 more vote from the Minor Houses per 4 Landsraad Standing",

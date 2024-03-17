@@ -5,6 +5,7 @@
       [
         {
           "name": "Entropic Engineering",
+          "isFaction": true,
           "perks": ["Can spend up to 2 Fuel Cell in Combine Harvester Drones to increase their production", 
                    "Unlocks the Spice Silos Village Building",
                    "Unlocks the Spice Laboratory Building in S-Vault"],
@@ -17,6 +18,7 @@
                 [
                     {
                       "name": "Spice Enlightenment",
+                      "isFaction": true,
                       "perks": ["Can spend up to 4 Fuel Cells in Combine Harvester Drones to increase their production", 
                       "+0,5% Spice production per Knowledge"]
                     },

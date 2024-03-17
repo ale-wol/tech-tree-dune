@@ -5,17 +5,20 @@
       [
         {
           "name": "Heir of Arrakis",
+          "isFaction": true,
           "perks": ["+20% Authority production per controlled Deep deserrt", "Controlled Deep deserts grant neighboring Villages:" , 
           "+2 instances of the Village's traits", "+20% Militia Power", "Unlocks the Investment Office Village Building"]
         },
         {
           "name": "Desert Wisdom",
+          "isFaction": true,
           "perks": ["Windtraps produce +0,1 Knowledge per level of wind strength in the Region", 
           "Unlocks the Research Agreement Treaty", "Unlocks the Mason Guild Building in Sietch Tabr"],
           "childs": 
           [
             {
               "name": "Desert Watchers",
+              "isFaction": true,
               "perks": ["+1 Militia Slot", "+50 Militia Health per neutral neighboring Village", "Ally units in Fremen territory have Stealth"],
               "childs": 
               [

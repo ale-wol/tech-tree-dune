@@ -5,20 +5,24 @@
       [
         {
           "name": "Sky Gazing",
+          "isFaction": true,
           "perks": ["-20% damage from air units", "Unlocks the Support Mobile Turret unit"]
         },
         {
           "name": "Desert Trekkers",
+          "isFaction": true,
           "perks": ["+10 Water" , "Ground units gain +20% Speed in neutral territory"],
           "childs": 
           [
             {
               "name": "Stalwart Alliance",
+              "isFaction": true,
               "perks": ["During Liberation of an enemy Village neigboring allied Sietches send a supporting raid", "Unlock the second gear slot in Armory"],
               "childs": 
               [
                 {
                   "name": "Iday Alkrab",
+                  "isFaction": true,
                   "perks": ["Wormriding is +100% faster", "Wormriding cannot be seen",
                   "On exiting wormriding units inflict +10 damage on first attack and gain Stealth for a day"]
                 }

@@ -5,6 +5,7 @@
       [
         {
           "name": "Imperial Command",
+          "isFaction": true,
           "perks": ["Can use Airfields of factions in Truce", "No Supply drain in regions owned by factions in Truce", 
           "Unlock the second gear slot in the Armory"]
         },
@@ -43,6 +44,7 @@
                 [
                   {
                     "name": "Imperial Protocols",
+                    "isFaction": true,
                     "perks": ["+10 Command Point", "-20% damage received for Military Units regsion where Corrino has a numerical superiority"]
                   },
                   {

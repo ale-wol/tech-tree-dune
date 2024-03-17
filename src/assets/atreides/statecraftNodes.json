@@ -1,5 +1,6 @@
 [{
     "name": "Atreides Sympathizers",
+    "isFaction": true,
     "perks": ["+5 Landsraad Standing per Landsraad Information level, on Council opening", 
     "+2 Influence production"],
     "childs": 
@@ -13,6 +14,7 @@
           [
             {
               "name": "Political Entente",
+              "isFaction": true,
               "perks": ["When another faction betrays a Truce with House Atreides, receive 5 free Landsraad Guard", 
                         "Unlocks the Council Chamber Building in Arrakeen"]
             },
@@ -40,6 +42,7 @@
           [
             {
               "name": "Sustainable Spying",
+              "isFaction": true,
               "perks": ["Agents assigned on CHOAM Information",
                         "Landsraad Information, or Spacing Guild Information slots produce +100% of their associated resources",
                         "Agent traits present only once on an Information field apply their effects twice"],
@@ -54,6 +57,7 @@
             },
             {
                 "name": "Active Surveillance",
+                "isFaction": true,
                 "perks": ["+1 Influence and Intel production per Agent assigned to Counterintelligence", 
                           "+1 Agent slot in Counterintelligence"]
             }

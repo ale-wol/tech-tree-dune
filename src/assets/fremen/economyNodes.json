@@ -5,6 +5,7 @@
       [
         {
           "name": "Arrakis Secrets",
+          "isFaction": true,
           "perks": ["Reveals the position of all Spice Fields", "Unlocks the Spice Silos Village Buidling", 
           "Deployed Harvesting Teams regain Health and Supply" , "When they pack up, Harvesting Teams leave combat immediatly and have Stealth for 1 day"],
           "childs": 
@@ -28,17 +29,20 @@
         },
         {
           "name": "Freedom Fighters",
+          "isFaction": true,
           "perks": ["+0,5 Solari production per existing neutral or Fremen Village", "+500 Solari when liberating a Village", 
           "Unlocks the Trade Agreement Treaty"],
           "childs": 
           [
             {
               "name": "Sand Brotherhood",
+              "isFaction": true,
               "perks": ["+1% Solari production per ally Sietch", "+10% resource production in the region of an ally Sietch and its neighbors", 
               "Unlocks the Bazaar Building in Sietch Tabr"]
             },
             {
               "name": "Shared Transcendence",
+              "isFaction": true,
               "perks": ["Ceremonial Caves produce +10 Solari", "Ceremonial Caves produce +1 Knowledge"]
             },
             {

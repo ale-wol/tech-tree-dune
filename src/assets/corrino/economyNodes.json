@@ -1,5 +1,6 @@
 [{
     "name": "Solid Materials",
+    "isFaction": true,
     "perks": ["+10 Plascrete production", "-15% Building construction costs"],
     "childs": 
       [
@@ -20,6 +21,7 @@
                     },
                     {
                       "name": "CHOAM Manipulation",
+                      "isFaction": true,
                       "perks": ["Each 1% of CHOAM Shares grants:", "+0,5% Military Unit Power", "+1% chance to detect an enemy operation"]
                     }
                 ]
@@ -34,6 +36,7 @@
           [
             {
               "name": "Integrated Costs",
+              "isFaction": true,
               "perks": ["Ally Villages neighboring Imperial Base get:", 
               "+10 Solari production", "-50% Major Building Solari upkeeps"]
             },

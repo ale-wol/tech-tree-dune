@@ -1,5 +1,6 @@
 [{
     "name": "Sequential Thinking",
+    "isFaction": true,
     "perks": ["The Nodal Network can optionaly connect to Neural Nodes across a Deep Desert", 
              "Each node on the longest path of the Nodal Network gives +1 Knowledge and +2% Authority production"],
     "childs": 
@@ -20,6 +21,7 @@
               [
                 {
                   "name": "Automated Defenses",
+                  "isFaction": true,
                   "perks": ["Villages connected to the Nodal Network gain:", "+2 free extra Automated Militia", "Enemy units in region suffer -3%",
                             "Health per day per node connected to S-Vault through this Village"]
                 }
@@ -29,6 +31,7 @@
         },
         {
             "name": "Neural Tropism",
+            "isFaction": true,
             "perks": ["Enemy factions pay +30% Authority to Annex a Village neighboring at least 2 regions connected to the Nodal Network", 
                       "Unlocks the Neural Core Building in the S-Vault"],
             "childs": 

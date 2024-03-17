@@ -30,6 +30,7 @@
         },
         {
             "name": "Post-Trauma Reintegration",
+            "isFaction": true,
             "perks": ["+5 Command Point", "-30% non-mechanical units regeneration costs", "Unlocks the Command Post Building in Arrakeen"],
             "childs": 
             [
@@ -44,6 +45,7 @@
                   },
                   {
                     "name": "Proud Liberator",
+                    "isFaction": true,
                     "perks": ["Non-mechanical units get +2% max Health per 25 Landsraad Standing",
                      "Units Liberating or Annexing a Village from a faction with less Landsraad Standing heal 20% of Health"]
                   }

@@ -9,11 +9,13 @@
         },
         {
           "name": "Manichean Propaganda",
+          "isFaction": true,
           "perks": ["+1 Militia Slot", "Other factions lose 5 Influence when killing an Ecazi Militia"],
           "childs": 
           [
             {
               "name": "Prideful Crown",
+              "isFaction": true,
               "perks": ["Villages at a distance of 2 region from the Garden Resort gain:" , 
               "-40% Authority cost to Annex", "+50% Militia Power", "+50% Militia Health"],
               "childs": 
@@ -28,6 +30,7 @@
         },
         {
             "name": "Native Artists",
+            "isFaction": true,
             "perks": ["Masterpieces increase relation with Sietches in the same region", 
             "Unlocks the Museum of Unbound Arts Building"],
             "childs": 

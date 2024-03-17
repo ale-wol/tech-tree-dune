@@ -5,6 +5,7 @@
       [
         {
           "name": "Water Batteries",
+          "isFaction": true,
           "perks": ["When out of Fuel Cells, Water is used in its stead", "Unlock the second gear slot in the Armory"]
         },
         {
@@ -30,6 +31,7 @@
         },
         {
             "name": "Guild Collaboration",
+            "isFaction": true,
             "perks": ["+5 Command Point", "Agents assigned on a Spacing Guild Information slot produce 2 Fuel Cell", "Unlocks the Command Post Building in S-Vault"],
             "childs": 
             [
@@ -40,6 +42,7 @@
                 [
                   {
                     "name": "Automated Manufacture",
+                    "isFaction": true,
                     "perks": ["+10 Command Point", "+0,5 recruitment and regeneration speed of all units per Knowledge"]
                   },
                   {

@@ -1,11 +1,13 @@
 export class TechNode {
     name: string;
+    isFaction: boolean;
     public perks: string [] = [];
     public childs: TechNode[] = [];
     private parentNode?: TechNode;
   
-    constructor(name: string) {
+    constructor(name: string, isFaction: boolean) {
       this.name = name;
+      this.isFaction = isFaction;
     }
 
     addPerk(perk: string){

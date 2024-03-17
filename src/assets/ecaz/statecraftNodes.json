@@ -26,6 +26,7 @@
                 [
                   {
                     "name": "Political Art",
+                    "isFaction": true,
                     "perks": ["Gain 15 Influence upon building a Masterpiece",
                             "Any Charter currently claimed by House Ecaz cannot be proposed to vote"]
                   }
@@ -46,6 +47,7 @@
               [
                 {
                   "name": "Influential Plots",
+                  "isFaction": true,
                   "perks": ["When out of Intel, Influence is used in its stead for mission preparation, assassination upkeep and Assassin recruitment",
                    "+1 max Infiltration Cells in each faction's territory"]
                 }
@@ -53,6 +55,7 @@
             },
             {
                 "name": "Cosmopolite Elegance",
+                "isFaction": true,
                 "perks": ["Information levels rise and fall 50% faster",
                         "Agents on fields at max Infomration level produce +50% of every resources"]
             }

@@ -3,49 +3,49 @@
   <div *ngIf="selectedFaction == 'Corrino'">
     <mat-grid-tile *ngFor="let nodes of [corinoEcoNodes, corinoMilNodes, corinoStaNodes, corinoArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Atreides'">
     <mat-grid-tile *ngFor="let nodes of [atreidesEcoNodes, atreidesMilNodes, atreidesStaNodes, atreidesArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Smuggler'">
     <mat-grid-tile *ngFor="let nodes of [smugEcoNodes, smugMilNodes, smugStaNodes, smugArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Fremen'">
     <mat-grid-tile *ngFor="let nodes of [fremenEcoNodes, fremenMilNodes, fremenStaNodes, fremenArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Harkonnen'">
     <mat-grid-tile *ngFor="let nodes of [harkEcoNodes, harkMilNodes, harkStaNodes, harkArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Ecaz'">
     <mat-grid-tile *ngFor="let nodes of [ecazEcoNodes, ecazMilNodes, ecazStaNodes, ecazArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>
   <div *ngIf="selectedFaction == 'Vernius'">
     <mat-grid-tile *ngFor="let nodes of [verniusEcoNodes, verniusMilNodes, verniusStaNodes, verniusArrNodes]">
       <mat-card>
-        <app-tech-tree [childs]="nodes"></app-tech-tree>
+        <app-tech-tree [childs]="nodes" [selectedFaction]="selectedFaction"></app-tech-tree>
       </mat-card>
     </mat-grid-tile>
   </div>

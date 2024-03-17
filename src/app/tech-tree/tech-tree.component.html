@@ -4,7 +4,21 @@
 
    <div class='item'>
       <div class='inner-item' [ngbTooltip]="tipContent" (mouseenter)="generateTooltipContent(itm)">
-         {{itm.name}} 
+         <div class='placeholder-for-faction'> 
+            <div *ngIf="itm.isFaction">
+               <picture>
+                  <source *ngIf="selectedFaction==='Atreides'" media='(min-width:0px)' srcset="../assets/img/Atreides_24.webp">
+                  <source *ngIf="selectedFaction==='Corrino'" media='(min-width:0px)' srcset="../assets/img/Corrino_24.webp">
+                  <source *ngIf="selectedFaction==='Harkonnen'" media='(min-width:0px)' srcset="../assets/img/Hark_24.webp">
+                  <source *ngIf="selectedFaction==='Smuggler'" media='(min-width:0px)' srcset="../assets/img/Smug_24.webp">
+                  <source *ngIf="selectedFaction==='Fremen'" media='(min-width:0px)' srcset="../assets/img/Fremen_24.webp">
+                  <source *ngIf="selectedFaction==='Ecaz'" media='(min-width:0px)' srcset="../assets/img/Ecaz_24.webp">
+                  <source *ngIf="selectedFaction==='Vernius'" media='(min-width:0px)' srcset="../assets/img/Ix_24.webp">
+                  <img mat-card-image src="">
+               </picture>
+            </div>
+         </div>
+         <div class='tech-name'>{{itm.name}}</div>
       </div>
       <div *ngIf="itm.getchilds.length"></div> 
 
@@ -14,5 +28,5 @@
 
    </div>
  
- <app-tech-tree [childs] = "itm.childs"></app-tech-tree>
+ <app-tech-tree [childs] = "itm.childs" [selectedFaction]="selectedFaction"></app-tech-tree>
 </div>

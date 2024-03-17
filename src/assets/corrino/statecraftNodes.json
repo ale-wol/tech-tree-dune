@@ -1,5 +1,6 @@
 [{
     "name": "Absolute Power",
+    "isFaction": true,
     "perks": ["Proposing a Non-aggression Pact has no cost if no Truce is active", 
     "Gain 5 Landsraad Standing after every Council if at least one Truce is active", 
     "Unlocks the Landsraad Quarters in Imerpial Base"],
@@ -7,6 +8,7 @@
       [
         {
           "name": "Diplomatic Spying",
+          "isFaction": true,
           "perks": ["+2 Influence production per Agents assigned on a faction in Truce", 
           "+2 Intel production per Agents assigned on a faction in Conflict",
         "Unlocks the Political Agreement Treaty"],
@@ -14,6 +16,7 @@
           [
             {
               "name": "Emperor Eyes",
+              "isFaction": true,
               "perks": ["Fills Counterintelligence slots with 3 unmovable Emperor Eye Agents",
                       "-50% Military Units cost while victim of a treason"]
             },

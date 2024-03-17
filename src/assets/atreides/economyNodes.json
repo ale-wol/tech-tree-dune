@@ -1,5 +1,6 @@
 [{
     "name": "Local Community",
+    "isFaction": true,
     "perks": ["+5 Plascrete production", "Unlocks the Maintenance Center Village Building", 
     "Unlocks the Investment Village Building"],
     "childs": 
@@ -16,6 +17,7 @@
                 [
                     {
                       "name": "Atreides Foremen",
+                      "isFaction": true,
                       "perks": ["+2 maximum Crew in Harvesters", 
                       "After successfully paying the Imperial Tax, every Harvesters with full crew gains +15% gathering rate permanently (x3 max)"]
                     },
@@ -29,6 +31,7 @@
         },
         {
           "name": "Urban Planning",
+          "isFaction": true,
           "perks": ["Allow constructing multiple Village Buildings simultaneously", "Unlocks the Trade Agreement Treaty",
            "Unlocks the Mason Guild in Arrakeen"],
           "childs": 

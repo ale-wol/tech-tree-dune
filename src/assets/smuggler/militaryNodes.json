@@ -5,15 +5,18 @@
       [
         {
           "name": "Guerrilla Tactics",
+          "isFaction": true,
           "perks": ["+15 Water" ,"At night, Military Units gain: ", "Attacks deal +20% damage", "+20% Speed outside combat"]
         },
         {
           "name": "Organized Looting",
+          "isFaction": true,
           "perks": ["+30% resources from pillaging Villages and Sietches", "Unlocks the Scavenging Drone unit"],
           "childs": 
           [
             {
               "name": "Industrial Scavenging",
+              "isFaction": true,
               "perks": ["Non-mechanical units in the same region as at least 1 Scavenging Drone consume -30% Solari upkeep", 
                          "Unlock the second gear slotin the Armory", "Unlocks the Fusion Plant Building in Sietch Tuek"],
               "childs": 
@@ -40,6 +43,7 @@
                 [
                   {
                     "name": "Synchronized Heist",
+                    "isFaction": true,
                     "perks": ["+10 Command Point", "On completing a siege units in the occupation circle gain +20% Speed for 1 day", 
                     "When at least 2 sieges are under way against the same faction Pillage progress 100% faster"]
                   },

@@ -1,5 +1,6 @@
 [{
     "name": "Criminal Barons",
+    "isFaction": true,
     "perks": ["-15% Underworld Headquarters installation cost", "+0,5 Water per Underworld Headquarters"],
     "childs": 
       [
@@ -9,6 +10,7 @@
         },
         {
           "name": "Underground Network",
+          "isFaction": true,
           "perks": ["Smuggler Villages produce +5 Solari per Underworld Headquarter in adjacent regions", "Unlocks the Black Market Branch Building in Sietch Tuek"],
           "childs": 
           [
@@ -32,6 +34,7 @@
             [
               {
                 "name": "Illicit Methods",
+                "isFaction": true,
                 "perks": ["Ignore the cost penalty to Annex pillaged Villages", "Unlocks the Investment Office Village Building",
                   "+1 Agent slot in Arrakis Information"]
               },

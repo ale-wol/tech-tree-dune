@@ -1,5 +1,6 @@
 [{
     "name": "Technological Exchange",
+    "isFaction": true,
     "perks": ["Gain 5 Landsraad Standing on Council opening per active Truce", "+2 Knowledge per active Truce"],
     "childs": 
       [
@@ -31,6 +32,7 @@
         },
         {
           "name": "Heretical Computing",
+          "isFaction": true,
           "perks": ["Unlock Analytical Machine Agents and get 1 for free",
            "Unlocks the Harmless Gadget Treaty",
            "Unlocks the Intelligence Agency Building in S-Vault"],
@@ -44,6 +46,7 @@
               [
                 {
                   "name": "Physical Wiring",
+                  "isFaction": true,
                   "perks": ["Infiltration Cells neighboring a region connected to the Nodal Network do no count towards the maximum of Infiltration Cells",
                         "Allows the training of Assassins"]
                 }
@@ -51,6 +54,7 @@
             },
             {
                 "name": "Holistic Thinking",
+                "isFaction": true,
                 "perks": ["+1 Knowledge per Information field with at least 1 Analytical Machine", 
                           "Information increases by 1 level in factions that have accepted a Harmless Gadget"]
             }

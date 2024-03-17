@@ -5,6 +5,7 @@
       [
         {
           "name": "Arrakis Butchers",
+          "isFaction": true,
           "perks": ["+10 Water", "+50% damage against Militia and Rebel", "Gains 5 Manpower upon killing Militia and Rebel"]
         },
         {
@@ -21,6 +22,7 @@
               [
                 {
                   "name": "Assembly Lines",
+                  "isFaction": true,
                   "perks": ["-30% Combat Probe an Harpy recruitment costs", 
                           "-30% Combat Probe and Harpy training time"]
                 }
@@ -41,6 +43,7 @@
                 [
                   {
                     "name": "Adrenaline Addiction",
+                    "isFaction": true,
                     "perks": ["+10 Command Point", "Every time a unit dies, ally Military Units that are fighting nearby receive +1% attack speed (x50 max)",
                               "Unlock the second gear slot in the Armory"]
                   },

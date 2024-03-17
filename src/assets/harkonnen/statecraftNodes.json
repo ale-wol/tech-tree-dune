@@ -6,6 +6,7 @@
       [
         {
           "name": "Cruel Reputation",
+          "isFaction": true,
           "perks": ["Using an operation on a faction in Conflict grants 25% of its Solari cost as Influence", 
                     "Unlocks the Political Agreement Treaty"],
           "childs": 
@@ -17,6 +18,7 @@
             },
             {
                 "name": "Landsraad Whispers",
+                "isFaction": true,
                 "perks": [
                     "Agents assined on a Landsraad Information slot produce +2 Intel",
                      "Unlocks the Landsraad Quarters Building in Carthag", 
@@ -40,6 +42,7 @@
           [
             {
               "name": "Enhanced Questionning",
+              "isFaction": true,
               "perks": ["Oppressed Villages grant +1 Intel production",
                         "Unlocks the Interrogation Center Buidling in Carthag"],
               "childs": 

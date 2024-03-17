@@ -1,5 +1,6 @@
 [{
     "name": "Work Ethics",
+    "isFaction": true,
     "perks": ["+5 Plascrete production", "+3 Manpower production", "Unlocks the Maintenance Center Village Building"],
     "childs": 
       [
@@ -43,6 +44,7 @@
             },
             {
               "name": "Martial Economy",
+              "isFaction": true,
               "perks": ["+1 Militia Slot", "Unlocks the Office of Order Village Building"]
             }
           ]

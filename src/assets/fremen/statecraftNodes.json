@@ -1,16 +1,19 @@
 [{
     "name": "Fremen Solidarity",
+    "isFaction": true,
     "perks": ["Immediatly gain 60 relation with all Sietches", "+100% Agent recruitment speed"],
     "childs": 
       [
         {
           "name": "Sand Diplomats",
+          "isFaction": true,
           "perks": ["Each allied Sietch grants 1 Influence production", "Unlocks the Political Agreement Treaty", 
           "Unlocks the Al-Gaib Temple in Sietch Tabr"],
           "childs": 
           [
             {
               "name": "Sietch Network",
+              "isFaction": true,
               "perks": ["Each allied Sietch grants +5% chance to detect an enemy operation", "+1 Agent slot in Counterintelligence"]
             },
             {

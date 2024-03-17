@@ -9,6 +9,7 @@ import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 })
 export class TechTreeComponent {
   @Input() childs: TechNode[] =[];
+  @Input() selectedFaction: String = "";
   tooltipContent: string="";
   sanitizedTooltipContent: SafeHtml = "";
 

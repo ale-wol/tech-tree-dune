@@ -15,14 +15,14 @@
 
   .inner-item {
     margin: 10px  10px;
-    padding: 10px  10px;
+    /*padding: 0px  5px;*/
     border-bottom: 0.5px solid #f3dcc2;
     border-left: 0.5px solid #f3dcc2;
     border-top: 0.5px solid #f3dcc2;
     border-right: 0.5px solid #f3dcc2;
-    width: fit-content; 
     /* To adjust the height as well */ 
-    height: fit-content;
+    width: 193px;
+    height: 47px;
   }
   
   .item{
@@ -46,4 +46,8 @@
 
 ::ng-deep .tooltip-arrow {
   display: none !important;
+}
+
+.placeholder-for-faction {
+  float:left
 }

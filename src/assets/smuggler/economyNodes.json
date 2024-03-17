@@ -5,6 +5,7 @@
       [
         {
           "name": "Tinkerer Teams",
+          "isFaction": true,
           "perks": ["+1 maximum Crew in Harvesters", "Unlocks the Trafficking Station Village Building", "Unlocks the Harvester Works Building in Sietch Tuek"],
           "childs": 
           [
@@ -15,6 +16,7 @@
                 [
                     {
                       "name": "Underworld Contacts",
+                      "isFaction": true,
                       "perks": ["+2 maximum Crew in Harvesters", 
                       "Underworld Headquarters produce 20% of their Village's Spice production", "Unlocks Contraband Supply special events"]
                     },
