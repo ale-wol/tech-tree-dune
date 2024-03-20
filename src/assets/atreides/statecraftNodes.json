@@ -15,7 +15,7 @@
             {
               "name": "Political Entente",
               "isFaction": true,
-              "perks": ["When another faction betrays a Truce with House Atreides, receive 5 free Landsraad Guard", 
+              "perks": ["When another faction betrays a Truce with House Atreides, receive 4 free Landsraad Guard", 
                         "Unlocks the Council Chamber Building in Arrakeen"]
             },
             {
