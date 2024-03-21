@@ -1,7 +1,7 @@
 [{
     "name": "Solid Materials",
     "isFaction": true,
-    "perks": ["+10 Plascrete production", "-15% Building construction costs"],
+    "perks": ["+15 Plascrete production", "Village Buildings have +1000 health"],
     "childs": 
       [
         {
@@ -38,7 +38,7 @@
               "name": "Integrated Costs",
               "isFaction": true,
               "perks": ["Ally Villages neighboring Imperial Base get:", 
-              "+10 Solari production", "-50% Major Building Solari upkeeps"]
+              "+10 Solari production", "-30% Major Building Solari upkeeps"]
             },
             {
               "name": "Geothermal Condensers",

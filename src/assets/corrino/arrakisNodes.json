@@ -1,7 +1,8 @@
 [{
   "name": "Megalopolis",
   "isFaction": true,
-  "perks": ["Corrino Villages neigboring Imperial Base get +3 Water", "Unlocks the Investment Office Buidling"],
+  "perks": ["Corrino Villages neigboring Imperial Base get +3 Water", 
+            "Building cost 10% less plascrete and solari to build in Main Base and neighboring villages"],
   "childs": 
     [
       {
@@ -12,7 +13,7 @@
       {
         "name": "Imperial Administration",
         "isFaction": true,
-        "perks": ["+10% resource production in ally Villages with 4 or more Buildings of the same type", "Unlocks the Maintenance Center Village Building"],
+        "perks": ["Effects of villages quirks are applied one more time in village neihboring Main Base", "Unlock the Investment Office village building"],
         "childs": 
         [
           {
@@ -31,7 +32,7 @@
       {
           "name": "Administrative Consolidation",
           "isFaction": true,
-          "perks": ["Effects of Village quirks are applied 1 more time in ally Villages neighboring Imperial Bases", "Unlocks the Emperor Monument Building in Imperial Base"],
+          "perks": ["Village with 4 ore more buildings of the same type reduce solari upkeep by 15%", "Unlocks the Emperor Monument Building in Imperial Base"],
           "childs": 
           [
             {
