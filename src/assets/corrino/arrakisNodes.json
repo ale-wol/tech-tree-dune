@@ -32,7 +32,7 @@
       {
           "name": "Administrative Consolidation",
           "isFaction": true,
-          "perks": ["Village with 4 ore more buildings of the same type reduce solari upkeep by 15%", "Unlocks the Emperor Monument Building in Imperial Base"],
+          "perks": ["Village with 4 ore more buildings of the same type reduce solari upkeep by 20%", "Unlocks the Emperor Monument Building in Imperial Base"],
           "childs": 
           [
             {
